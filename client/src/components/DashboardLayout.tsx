@@ -132,7 +132,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
             {t("dashboard.layout.platformDescription")}
           </p>
           <Button
-            onClick={() => { window.location.href = getLoginUrl(); }}
+            onClick={() => { setLocation("/investor-login"); }}
             size="lg"
             className="w-full text-base font-bold py-6 rounded-xl btn-gold"
           >

@@ -19,7 +19,7 @@ const redirectToLoginIfUnauthorized = (error: unknown) => {
 
   if (!isUnauthorized) return;
 
-  window.location.href = getLoginUrl();
+  window.location.href = "/investor-login";
 };
 
 queryClient.getQueryCache().subscribe(event => {
