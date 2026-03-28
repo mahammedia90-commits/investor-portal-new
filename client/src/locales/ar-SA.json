@@ -1,0 +1,1685 @@
+{
+  "common": {
+    "appName": "بوابة المستثمر",
+    "appSubtitle": "INVESTOR PORTAL",
+    "mahamExpo": "مهام إكسبو",
+    "loading": "جاري التحميل...",
+    "save": "حفظ",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "add": "إضافة",
+    "search": "بحث",
+    "searchPlaceholder": "بحث في المنصة...",
+    "filter": "تصفية",
+    "sort": "ترتيب",
+    "export": "تصدير",
+    "import": "استيراد",
+    "download": "تحميل",
+    "upload": "رفع",
+    "viewAll": "عرض الكل",
+    "viewDetails": "عرض التفاصيل",
+    "back": "رجوع",
+    "next": "التالي",
+    "previous": "السابق",
+    "submit": "إرسال",
+    "close": "إغلاق",
+    "yes": "نعم",
+    "no": "لا",
+    "active": "نشط",
+    "inactive": "غير نشط",
+    "pending": "معلّق",
+    "approved": "مُعتمد",
+    "rejected": "مرفوض",
+    "completed": "مكتمل",
+    "expired": "منتهي",
+    "total": "الإجمالي",
+    "date": "التاريخ",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "name": "الاسم",
+    "email": "البريد الإلكتروني",
+    "phone": "رقم الجوال",
+    "address": "العنوان",
+    "city": "المدينة",
+    "region": "المنطقة",
+    "country": "الدولة",
+    "amount": "المبلغ",
+    "currency": "ر.س",
+    "currencyFull": "ريال سعودي",
+    "percentage": "النسبة",
+    "description": "الوصف",
+    "notes": "ملاحظات",
+    "type": "النوع",
+    "category": "التصنيف",
+    "priority": "الأولوية",
+    "high": "عالية",
+    "medium": "متوسطة",
+    "low": "منخفضة",
+    "all": "الكل",
+    "none": "لا يوجد",
+    "noData": "لا توجد بيانات",
+    "noResults": "لا توجد نتائج",
+    "comingSoon": "قريباً",
+    "featureComingSoon": "هذه الميزة قيد التطوير",
+    "error": "حدث خطأ",
+    "tryAgain": "حاول مرة أخرى",
+    "success": "تمت العملية بنجاح",
+    "warning": "تنبيه",
+    "info": "معلومة",
+    "required": "مطلوب",
+    "optional": "اختياري",
+    "live": "مباشر",
+    "darkMode": "الوضع المظلم",
+    "lightMode": "الوضع الفاتح",
+    "language": "اللغة",
+    "arabic": "العربية",
+    "english": "English",
+    "logout": "تسجيل الخروج",
+    "login": "تسجيل الدخول",
+    "register": "تسجيل",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "notifications": "الإشعارات",
+    "messages": "الرسائل",
+    "help": "المساعدة",
+    "copyright": "جميع الحقوق محفوظة",
+    "poweredBy": "مدعوم من مهام إكسبو",
+    "expenses": "مصروفات",
+    "income": "إيرادات",
+    "new": "new"
+  },
+  "nav": {
+    "home": "الرئيسية",
+    "commandCenter": "مركز القيادة",
+    "marketplace": "سوق الفرص",
+    "portfolio": "محفظتي",
+    "dealRoom": "غرف الصفقات",
+    "exhibitions": "المعارض",
+    "bookings": "طلبات الحجز",
+    "contracts": "العقود",
+    "payments": "المدفوعات",
+    "analytics": "التحليلات",
+    "digitalTwin": "Digital Twin",
+    "liveEconomy": "الاقتصاد الحي",
+    "aiAdvisor": "المستشار الذكي",
+    "financialCenter": "المركز المالي",
+    "documentVault": "خزنة المستندات",
+    "investorProfile": "ملف المستثمر",
+    "communications": "الاتصالات",
+    "roiCalculator": "حاسبة العوائد",
+    "exhibitionMap": "خريطة المعرض",
+    "collapseMenu": "طي القائمة",
+    "expandMenu": "توسيع القائمة",
+    "exhibitionManagement": "إدارة المعارض",
+    "analyticsAndAI": "التحليلات والذكاء",
+    "crmIntegration": "إدارة العلاقات",
+    "crmDashboard": "لوحة CRM"
+  },
+  "dashboard": {
+    "greeting": "صباح الخير",
+    "welcomeBack": "أهلاً بعودتك",
+    "commandCenter": "مركز القيادة الاستثماري",
+    "subtitle": "نظرة شاملة على أداء محفظتك ومعارضك",
+    "exploreOpportunities": "استكشف الفرص",
+    "totalRevenue": "إجمالي الإيرادات",
+    "activeContracts": "العقود الفعالة",
+    "pendingBookings": "طلبات الحجز المعلقة",
+    "activeExhibitions": "المعارض النشطة",
+    "featuredExhibitions": "المعارض المميزة",
+    "featuredSubtitle": "أبرز الفرص الاستثمارية المتاحة",
+    "occupancy": "إشغال",
+    "availableUnits": "وحدة متاحة",
+    "expectedROI": "العائد المتوقع",
+    "viewExhibition": "عرض المعرض",
+    "recentActivity": "النشاط الأخير",
+    "recentActivitySubtitle": "آخر التحديثات والأحداث",
+    "quickActions": "إجراءات سريعة",
+    "browseMarketplace": "تصفح سوق الفرص",
+    "viewPortfolio": "عرض المحفظة",
+    "viewContracts": "عرض العقود",
+    "viewAnalytics": "عرض التحليلات",
+    "noExhibitions": "لا توجد معارض متاحة حالياً",
+    "noActivity": "لا يوجد نشاط حديث",
+    "commandCenterDesc": "مركز القيادة الاستثماري — نظرة شاملة على أداء محفظتك ومعارضك",
+    "exploreNewOpportunities": "استكشف فرص استثمارية جديدة",
+    "manageInvestments": "إدارة وتتبع استثماراتك",
+    "advancedReports": "تقارير الأداء المتقدمة",
+    "realTimeMarketData": "بيانات السوق اللحظية",
+    "dealSuccessRate": "معدل نجاح الصفقات",
+    "investorRating": "تصنيف المستثمر",
+    "loyaltyPoints": "نقاط الولاء",
+    "avgPaybackPeriod": "متوسط فترة الاسترداد",
+    "topInvestmentOpportunities": "أبرز الفرص الاستثمارية المتاحة",
+    "quickAccessToSections": "الوصول السريع لأهم الأقسام",
+    "investorMetrics": "مؤشرات المستثمر",
+    "liveInvestmentPerformance": "أداؤك الاستثماري المباشر",
+    "aiAdvisorRecommendation": "توصية مستشار AI",
+    "aiSmartAnalysis": "تحليل ذكي مبني على بيانات السوق",
+    "aiRecommendationText": "بناءً على تحليل بيانات السوق الحالية، نوصي بزيادة الاستثمار في قطاع الأغذية والمشروبات بنسبة 15% خلال الربع القادم. معدل الإشغال في هذا القطاع يتجاوز 92% مع نمو متوقع بنسبة 23%.",
+    "investorLogin": {
+      "title": "بوابة المستثمر",
+      "loginTitle": "تسجيل الدخول",
+      "sendOtp": "إرسال رمز التحقق",
+      "or": "أو",
+      "enterPhoneFirst": "يرجى إدخال رقم الجوال أولاً",
+      "otpTitle": "رمز التحقق",
+      "verify": "تحقق",
+      "resendCountdown": "إعادة الإرسال ({countdown}ث)",
+      "resend": "إعادة الإرسال",
+      "completeProfile": "أكمل ملفك الاستثماري",
+      "fullNamePlaceholder": "أدخل اسمك الكامل",
+      "optional": "(اختياري)",
+      "selectRegion": "اختر المنطقة",
+      "welcome": "مرحباً بك",
+      "invalidPhone": "يرجى إدخال رقم جوال صحيح",
+      "otpSendError": "حدث خطأ أثناء إرسال رمز التحقق",
+      "invalidOtp": "يرجى إدخال رمز التحقق المكون من 6 أرقام",
+      "wrongOtp": "رمز التحقق غير صحيح",
+      "verifyError": "حدث خطأ أثناء التحقق",
+      "generalError": "حدث خطأ",
+      "nameRequired": "يرجى إدخال الاسم الكامل",
+      "interestRequired": "يرجى اختيار نوع الاهتمام الاستثماري",
+      "registerError": "حدث خطأ أثناء التسجيل",
+      "interests": {
+        "exhibitions": "المعارض والفعاليات",
+        "realEstate": "العقارات",
+        "foodBeverage": "الأغذية والمشروبات",
+        "retail": "التجزئة والعلامات التجارية",
+        "entertainment": "الترفيه",
+        "technology": "التقنية",
+        "general": "استثمار عام"
+      },
+      "regions": {
+        "riyadh": "الرياض",
+        "makkah": "مكة المكرمة",
+        "madinah": "المدينة المنورة",
+        "eastern": "المنطقة الشرقية",
+        "qassim": "القصيم",
+        "asir": "عسير",
+        "tabuk": "تبوك",
+        "hail": "حائل",
+        "jouf": "الجوف",
+        "jazan": "جازان",
+        "najran": "نجران",
+        "baha": "الباحة",
+        "northern": "الحدود الشمالية"
+      },
+      "enterPhoneDesc": "أدخل رقم جوالك لتلقي رمز التحقق",
+      "sending": "جاري الإرسال...",
+      "demoBypass": "دخول تجريبي (بدون OTP)",
+      "backToHome": "العودة للصفحة الرئيسية",
+      "otpSentTo": "أدخل الرمز المرسل إلى",
+      "demoMode": "وضع تجريبي — رمز التحقق:",
+      "verifying": "جاري التحقق...",
+      "changeNumber": "تغيير الرقم",
+      "noCodeReceived": "لم يصلني الرمز — دخول تجريبي",
+      "profileDesc": "معلومات بسيطة لتخصيص تجربتك",
+      "fullNameLabel": "الاسم الكامل",
+      "interestLabel": "نوع الاهتمام الاستثماري",
+      "saving": "جاري الحفظ...",
+      "enterPlatform": "ادخل المنصة",
+      "back": "العودة",
+      "redirecting": "جاري تحويلك إلى لوحة التحكم...",
+      "footerText": "بوابة المستثمر"
+    },
+    "dealRoom": {
+      "title": "غرف الصفقات",
+      "totalDealsValue": "إجمالي قيمة الصفقات",
+      "activeDeals": "{count} صفقات نشطة",
+      "totalDeals": "إجمالي الصفقات",
+      "negotiating": "قيد التفاوض",
+      "approved": "تمت الموافقة",
+      "totalValue": "القيمة الإجمالية",
+      "all": "الكل",
+      "dueDiligence": "العناية الواجبة",
+      "signed": "تم التوقيع",
+      "dealValue": "قيمة الصفقة",
+      "location": "الموقع",
+      "deadline": "الموعد النهائي",
+      "documents": "المستندات",
+      "documentCount": "مستند",
+      "lastActivity": "آخر نشاط",
+      "dealProgress": "تقدم الصفقة",
+      "openDealRoom": "فتح غرفة الصفقة — قريباً",
+      "openChat": "فتح المحادثة — قريباً",
+      "sar": "ر.س",
+      "riyadh": "الرياض",
+      "mSar": "M ر.س",
+      "chats": "المحادثات"
+    },
+    "marketplace": {
+      "lowRisk": "منخفض",
+      "mediumRisk": "متوسط",
+      "highRisk": "مرتفع",
+      "riskLabel": "مخاطر {level}",
+      "visitorsPerDay": "{count} زائر/يوم",
+      "sar": "ر.س",
+      "perDay": "/ يوم",
+      "riyadh": "الرياض",
+      "madinah": "المدينة المنورة",
+      "viewDetails": "عرض التفاصيل",
+      "commitInvestment": "التزام بالاستثمار"
+    },
+    "home": {
+      "sar": "ر.س",
+      "avgPayback": "4.2 شهر",
+      "goodMorning": "صباح الخير",
+      "goodEvening": "مساء الخير",
+      "mahamExpo": "مهام إكسبو",
+      "comma": "،",
+      "investor": "المستثمر",
+      "occupancy": "إشغال {percent}%",
+      "boulevardWorld": "بوليفارد وورلد — موسم الرياض",
+      "riyadh": "الرياض",
+      "janJun2026": "يناير - يونيو 2026",
+      "kafdExhibition": "معرض KAFD للتقنية",
+      "mar2026": "مارس 2026",
+      "onHisSteps": "على خطاه — المعرض الإسلامي",
+      "madinah": "المدينة المنورة",
+      "aprMay2026": "أبريل - مايو 2026"
+    },
+    "liveEconomy": {
+      "revenue": "الإيرادات",
+      "visitors": "الزوار",
+      "transactions": "المعاملات",
+      "occupancy": "الإشغال",
+      "sar": "ر.س",
+      "minutes": "دقيقة",
+      "timeLabels": [
+        "8ص",
+        "9ص",
+        "10ص",
+        "11ص",
+        "12م",
+        "1م",
+        "2م",
+        "3م",
+        "4م",
+        "5م",
+        "6م",
+        "7م",
+        "8م",
+        "9م",
+        "10م",
+        "11م"
+      ],
+      "live": "مباشر"
+    },
+    "bookings": {
+      "title": "الحجوزات",
+      "pending": "معلق",
+      "confirmed": "مؤكد",
+      "rejected": "مرفوض",
+      "cancelled": "ملغي",
+      "approve": "موافقة",
+      "reject": "رفض",
+      "comingSoon": "قريباً",
+      "pendingReview": "قيد المراجعة",
+      "approved": "موافق",
+      "activity": "النشاط: {type}",
+      "notes": "ملاحظات: {text}",
+      "sar": "ر.س"
+    },
+    "contracts": {
+      "title": "العقود",
+      "active": "فعال",
+      "pending": "معلق",
+      "expired": "منتهي",
+      "terminated": "ملغي",
+      "sar": "ر.س",
+      "comingSoon": "قريباً",
+      "pendingSignature": "بانتظار التوقيع",
+      "activeFilter": "فعّال",
+      "contractNumber": "عقد #{num}",
+      "signedAt": "تم التوقيع: {date}",
+      "sign": "توقيع",
+      "all": "الكل",
+      "pendingSignatureFilter": "بانتظار التوقيع",
+      "expiredFilter": "منتهي"
+    },
+    "communications": {
+      "title": "مركز الاتصالات",
+      "channels": "القنوات",
+      "messages": "الرسائل",
+      "comingSoon": "قريباً",
+      "online": "متصل",
+      "offline": "غير متصل",
+      "onlineNow": "متصل الآن",
+      "lastSeen": "آخر ظهور"
+    },
+    "documentVault": {
+      "title": "خزنة المستندات",
+      "contracts": "عقود",
+      "reports": "تقارير",
+      "legal": "قانونية",
+      "invoices": "فواتير",
+      "plans": "مخططات",
+      "comingSoon": "قريباً",
+      "encrypted": "مشفرة",
+      "uploadDoc": "رفع مستند",
+      "download": "تحميل",
+      "preview": "معاينة"
+    },
+    "portfolio": {
+      "title": "المحفظة",
+      "sar": "ر.س",
+      "mSar": "M ر.س",
+      "kSar": "K ر.س",
+      "active": "نشط",
+      "completed": "مكتمل",
+      "items": [
+        {
+          "name": "مساحة تجزئة فاخرة — بوليفارد وورلد",
+          "exhibition": "بوليفارد وورلد — موسم الرياض 2026"
+        },
+        {
+          "name": "مطعم ومقهى — منطقة الطعام",
+          "exhibition": "معرض KAFD للتقنية 2026"
+        },
+        {
+          "name": "متجر Pop-up للأزياء",
+          "exhibition": "بوليفارد وورلد — موسم الرياض 2026"
+        },
+        {
+          "name": "جناح تقنية — معرض سابق",
+          "exhibition": "معرض جيتكس السعودية 2025"
+        }
+      ]
+    },
+    "digitalTwin": {
+      "title": "التوأم الرقمي",
+      "booked": "محجوز",
+      "available": "متاح",
+      "pending": "معلق",
+      "sqm": "م²",
+      "area": "المساحة",
+      "tenant": "المستأجر",
+      "monthlyRevenue": "الإيرادات الشهرية",
+      "visitorTraffic": "حركة الزوار",
+      "sar": "ر.س",
+      "perDay": "/ يوم"
+    },
+    "exhibitionMap": {
+      "title": "خريطة المعرض",
+      "commercial": "تجاري",
+      "food": "أغذية",
+      "services": "خدمات",
+      "premium": "مميز",
+      "available": "متاح",
+      "booked": "محجوز",
+      "pending": "معلق",
+      "unit": "وحدة",
+      "type": "النوع",
+      "area": "المساحة",
+      "sqm": "م²",
+      "price": "السعر",
+      "sar": "ر.س",
+      "location": "الموقع",
+      "rowCol": "صف {row}، عمود {col}",
+      "dimensions": "الأبعاد"
+    },
+    "financialCenter": {
+      "title": "المركز المالي",
+      "netProfit": "صافي الربح",
+      "rentalIncome": "إيرادات إيجار",
+      "sar": "ر.س",
+      "transactions": [
+        {
+          "desc": "إيرادات وحدة A-01 — بوليفارد وورلد",
+          "date": "15 مارس 2026"
+        },
+        {
+          "desc": "إيرادات وحدة B-03 — بوليفارد وورلد",
+          "date": "14 مارس 2026"
+        },
+        {
+          "desc": "رسوم صيانة — المنطقة A",
+          "date": "13 مارس 2026"
+        },
+        {
+          "desc": "إيرادات وحدة C-03 — شركة مهام AI",
+          "date": "12 مارس 2026"
+        },
+        {
+          "desc": "رسوم تسويق — حملة رمضان",
+          "date": "11 مارس 2026"
+        },
+        {
+          "desc": "عمولة وساطة — صفقة معرض KAFD",
+          "date": "10 مارس 2026"
+        }
+      ],
+      "exportReport": "تصدير التقرير"
+    },
+    "layout": {
+      "platformDescription": "منصة استثمارية متكاملة لإدارة الفرص في المعارض والفعاليات الكبرى",
+      "companyFooter": "شركة مهام إكسبو لتنظيم المعارض والمؤتمرات — فرع من شركة مهام للخدمات وتقنية المعلومات",
+      "arabic": "العربية",
+      "investor": "المستثمر",
+      "switchToArabic": "التبديل للعربية",
+      "ar": "عر",
+      "m": "م"
+    },
+    "notifications": {
+      "title": "الإشعارات",
+      "newBookingRequest": "طلب حجز جديد",
+      "paymentReceived": "دفعة مستلمة",
+      "minutesAgo": "منذ {minutes} دقيقة",
+      "hoursAgo": "منذ {hours} ساعة",
+      "daysAgo": "منذ {days} يوم",
+      "unreadCount": "لديك {count} إشعارات غير مقروءة",
+      "allRead": "جميع الإشعارات مقروءة",
+      "system": "نظام",
+      "markAllRead": "تحديد الكل كمقروء"
+    },
+    "payments": {
+      "title": "المدفوعات",
+      "received": "مستلمة",
+      "pending": "معلقة",
+      "reference": "المرجع: {ref}",
+      "bankTransfer": "تحويل بنكي",
+      "creditCard": "بطاقة ائتمان",
+      "cash": "نقدي",
+      "mada": "مدى",
+      "sar": "ر.س",
+      "merchants": [
+        {
+          "name": "أحمد محمد العتيبي",
+          "company": "شركة الأصالة للتجارة"
+        },
+        {
+          "name": "فاطمة سعد الدوسري",
+          "company": "متجر الزهور الفاخرة"
+        },
+        {
+          "name": "خالد عبدالله الشمري",
+          "company": "شركة التقنية المتقدمة"
+        },
+        {
+          "name": "سارة يوسف القحطاني",
+          "company": "دار العطور الشرقية"
+        },
+        {
+          "name": "نورة أحمد الحربي",
+          "company": "دار الأزياء العصرية"
+        }
+      ]
+    },
+    "exhibitions": {
+      "title": "المعارض",
+      "active": "نشط",
+      "upcoming": "قادم",
+      "completed": "مكتمل",
+      "general": "عام",
+      "addExhibition": "إضافة معرض",
+      "viewDetails": "عرض التفاصيل",
+      "settings": "إعدادات"
+    },
+    "investorProfile": {
+      "title": "الملف الاستثماري",
+      "defaultName": "نور كرم",
+      "cityCountry": "{city}، {country}",
+      "memberSince": "عضو منذ {date}",
+      "save": "حفظ",
+      "edit": "تعديل",
+      "mSar": "M ر.س",
+      "verified": "موثق"
+    },
+    "analytics": {
+      "title": "التحليلات",
+      "boulevardWorld": "بوليفارد وورلد",
+      "onHisSteps": "على خطاه",
+      "kSar": "K ر.س",
+      "exhibition": "المعرض",
+      "revenue": "الإيرادات",
+      "occupancy": "الإشغال",
+      "rating": "التقييم",
+      "units": "الوحدات",
+      "sar": "ر.س",
+      "kafdTechnology": "معرض KAFD للتقنية"
+    },
+    "aiAdvisor": {
+      "title": "المستشار الذكي",
+      "welcomeMessage": "مرحباً {name}، أنا مستشارك الاستثماري الذكي. أحلل بياناتك ومحفظتك لتقديم توصيات مخصصة. كيف يمكنني مساعدتك اليوم؟",
+      "lowRisk": "منخفض",
+      "highRisk": "مرتفع",
+      "risk": "مخاطر: {level}",
+      "recommendations": [
+        {
+          "name": "شراكة تقنية — منصة AI",
+          "reasons": [
+            "قطاع نمو سريع",
+            "يكمل محفظتك الحالية",
+            "شراكة طويلة الأمد"
+          ],
+          "risk": "مرتفع"
+        },
+        {
+          "name": "مطعم ومقهى — KAFD",
+          "reasons": [
+            "عائد مستقر",
+            "حركة زوار عالية",
+            "تنويع القطاعات"
+          ],
+          "risk": "منخفض"
+        }
+      ]
+    },
+    "roiCalculator": {
+      "title": "حاسبة العائد",
+      "sar": "ر.س",
+      "years": "سنة"
+    }
+  },
+  "marketplace": {
+    "title": "سوق الفرص الاستثمارية",
+    "subtitle": "اكتشف أفضل الفرص الاستثمارية في المعارض والفعاليات",
+    "searchPlaceholder": "ابحث عن فرصة استثمارية...",
+    "allCategories": "جميع التصنيفات",
+    "retail": "تجزئة",
+    "foodAndBeverage": "أغذية ومشروبات",
+    "entertainment": "ترفيه",
+    "technology": "تقنية",
+    "services": "خدمات",
+    "investmentSize": "حجم الاستثمار",
+    "expectedReturn": "العائد المتوقع",
+    "duration": "المدة",
+    "location": "الموقع",
+    "investNow": "استثمر الآن",
+    "learnMore": "اعرف المزيد",
+    "featured": "مميز",
+    "new": "جديد",
+    "trending": "رائج",
+    "noOpportunities": "لا توجد فرص متاحة حالياً",
+    "card": {
+      "duration": "المدة",
+      "expectedRevenue": "الإيرادات المتوقعة",
+      "expectedRoi": "العائد المتوقع (ROI)",
+      "requiredInvestment": "الاستثمار المطلوب"
+    },
+    "categories": {
+      "brandExperience": "تجربة علامة تجارية",
+      "eventPartnership": "شراكة فعالية",
+      "foodAndBeverage": "أغذية ومشروبات",
+      "popupStore": "متجر مؤقت",
+      "retail": "تجارة تجزئة",
+      "technology": "تقنية"
+    },
+    "demo": {
+      "aiPlatformDescription": "شراكة استراتيجية لإطلاق منصة ذكاء اصطناعي متكاملة تخدم قطاع المعارض والفعاليات في المنطقة.",
+      "aiPlatformLocation": "جناح التقنية — الطابق الثاني",
+      "aiPlatformTitle": "شراكة تقنية — منصة ذكاء اصطناعي",
+      "directOperationModel": "نموذج تشغيل مباشر مع حصة إيرادات 70/30",
+      "eightMonths": "8 أشهر",
+      "equityAndDividends": "حصة ملكية 25% + أرباح ربع سنوية",
+      "fixedMonthlyRent": "إيجار ثابت شهري",
+      "fourMonths": "4 أشهر",
+      "kafdExpo": "معرض KAFD للتقنية والابتكار 2026",
+      "madinah": "المدينة المنورة",
+      "onHisStepsEvent": "على خطاه 2026",
+      "pavilionDescription": "جناح تفاعلي ضخم في قلب الساحة الكبرى لموسم الرياض، مصمم لتقديم تجارب علامات تجارية عالمية مع تقنيات الواقع المعزز.",
+      "pavilionLocation": "المنطقة المركزية — الساحة الكبرى",
+      "pavilionTitle": "جناح تجربة العلامة التجارية",
+      "popupDescription": "فرصة لإطلاق متجر مؤقت للأزياء والعطور الفاخرة في ممر التسوق الرئيسي.",
+      "popupLocation": "ممر التسوق — المنطقة B",
+      "popupTitle": "متجر Pop-up للأزياء والعطور",
+      "rentAndSalesShare": "إيجار ثابت + نسبة من المبيعات",
+      "restaurantDescription": "موقع استراتيجي في منطقة الطعام الرئيسية بمعرض KAFD، مع تدفق مستمر للزوار من قطاع التقنية والابتكار.",
+      "restaurantLocation": "منطقة F&B — الطابق الأرضي",
+      "restaurantTitle": "مطعم ومقهى — منطقة الطعام الرئيسية",
+      "retailDescription": "فرصة استثمارية متميزة في أفضل موقع تجاري ضمن بوليفارد وورلد، بالقرب من البوابة الرئيسية مع حركة زوار يومية تتجاوز 45,000 زائر. المساحة مجهزة بالكامل وجاهزة للتشغيل الفوري.",
+      "retailEvent": "بوليفارد وورلد — موسم الرياض 2026",
+      "retailLocation": "المنطقة A — البوابة الرئيسية",
+      "retailTitle": "مساحة تجزئة فاخرة — بوليفارد وورلد",
+      "riyadh": "الرياض",
+      "sixMonths": "6 أشهر",
+      "sponsorshipAndMarketing": "رعاية + حقوق تسويقية حصرية",
+      "sponsorshipAndTickets": "رعاية + تذاكر دخول + مبيعات مباشرة",
+      "sponsorshipDescription": "رعاية ذهبية لفعالية على خطاه الدينية والثقافية مع حقوق حصرية للعلامة التجارية.",
+      "sponsorshipTitle": "شراكة فعالية — رعاية ذهبية",
+      "threeMonths": "3 أشهر",
+      "twelveMonths": "12 شهر",
+      "twoMonths": "2 أشهر"
+    },
+    "filters": {
+      "allCategories": "جميع الفئات",
+      "allRisks": "جميع المخاطر",
+      "searchPlaceholder": "ابحث عن فرصة..."
+    },
+    "header": {
+      "altText": "سوق الفرص",
+      "description": "اكتشف وحلل واستثمر في أفضل الفرص داخل المعارض والفعاليات الكبرى",
+      "title": "سوق الفرص الاستثمارية"
+    },
+    "modal": {
+      "aiAssessment": "تقييم AI للفرصة",
+      "businessModel": "نموذج العمل",
+      "dealRoom": "DEAL ROOM",
+      "expectedRevenue": "الإيرادات المتوقعة",
+      "operator": "المشغل",
+      "opportunityDescription": "وصف الفرصة",
+      "requiredInvestment": "الاستثمار المطلوب",
+      "roi": "العائد (ROI)",
+      "visitorTraffic": "حركة الزوار"
+    },
+    "risks": {
+      "high": "مرتفع",
+      "low": "منخفض",
+      "medium": "متوسط"
+    },
+    "stats": {
+      "availableOpportunities": "فرص متاحة",
+      "averageRoi": "متوسط ROI",
+      "totalInvestment": "إجمالي الاستثمار المطلوب",
+      "totalVisitors": "إجمالي الزوار المتوقع"
+    },
+    "toast": {
+      "bookedSuccessfully": "تم حجز الفرصة بنجاح — سيتم التواصل معك قريباً",
+      "savedToFavorites": "تم حفظ الفرصة في المفضلة"
+    }
+  },
+  "portfolio": {
+    "title": "المحفظة الاستثمارية",
+    "subtitle": "إدارة ومتابعة استثماراتك النشطة",
+    "totalInvested": "إجمالي المستثمر",
+    "totalReturns": "إجمالي العوائد",
+    "activeInvestments": "الاستثمارات النشطة",
+    "averageROI": "متوسط العائد",
+    "investmentName": "اسم الاستثمار",
+    "investedAmount": "المبلغ المستثمر",
+    "currentValue": "القيمة الحالية",
+    "returnRate": "نسبة العائد",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "performance": "الأداء",
+    "noInvestments": "لا توجد استثمارات نشطة",
+    "category": {
+      "brand_experience": "تجربة علامة",
+      "event_partnership": "شراكة",
+      "food_beverage": "أغذية ومشروبات",
+      "popup": "متجر مؤقت",
+      "retail": "تجارة تجزئة",
+      "technology": "تقنية"
+    },
+    "filter": {
+      "active": "نشط",
+      "all": "الكل",
+      "completed": "مكتمل"
+    },
+    "header": {
+      "description": "تتبع وإدارة جميع استثماراتك النشطة والمكتملة",
+      "title": "محفظتي الاستثمارية",
+      "totalValue": "القيمة الإجمالية"
+    },
+    "item": {
+      "currentValue": "القيمة الحالية",
+      "investedAmount": "المبلغ المستثمر",
+      "monthlyRevenue": "الإيرادات الشهرية",
+      "period": "الفترة",
+      "progress": "تقدم الاستثمار"
+    },
+    "misc": {
+      "currency": "ر.س",
+      "currencyPerMonth": "ر.س / شهر"
+    },
+    "stats": {
+      "currentValue": "القيمة الحالية",
+      "monthlyRevenue": "الإيرادات الشهرية",
+      "totalInvested": "إجمالي المستثمر",
+      "totalReturn": "العائد الإجمالي"
+    }
+  },
+  "exhibitions": {
+    "title": "المعارض",
+    "subtitle": "استعرض المعارض والفعاليات المتاحة",
+    "upcoming": "قادمة",
+    "ongoing": "جارية",
+    "past": "سابقة",
+    "exhibitionName": "اسم المعرض",
+    "startDate": "تاريخ البدء",
+    "endDate": "تاريخ الانتهاء",
+    "venue": "المكان",
+    "totalUnits": "إجمالي الوحدات",
+    "availableUnits": "الوحدات المتاحة",
+    "occupancyRate": "نسبة الإشغال",
+    "bookUnit": "احجز وحدة",
+    "viewMap": "عرض الخريطة",
+    "noExhibitions": "لا توجد معارض متاحة",
+    "card": {
+      "occupancy": "الإشغال",
+      "revenue": "الإيرادات",
+      "units": "الوحدات"
+    },
+    "demo": {
+      "boulevardWorld": {
+        "city": "الرياض",
+        "description": "فعالية تجارية ضمن موسم الرياض",
+        "location": "بوليفارد وورلد",
+        "name": "بوليفارد وورلد — موسم الرياض 2026",
+        "sector": "ترفيه وتجزئة"
+      },
+      "jeddahFood": {
+        "city": "جدة",
+        "description": "معرض متخصص في الأغذية والمشروبات",
+        "location": "مركز المعارض",
+        "name": "معرض جدة للأغذية والمشروبات",
+        "sector": "أغذية ومشروبات"
+      },
+      "kafdTech": {
+        "city": "الرياض",
+        "description": "معرض تقني متخصص في الابتكار والتقنية الحديثة",
+        "location": "مركز الملك عبدالله المالي",
+        "name": "معرض KAFD للتقنية والابتكار 2026",
+        "sector": "تقنية"
+      },
+      "onHisSteps": {
+        "city": "المدينة المنورة",
+        "description": "معرض إسلامي ثقافي وتجاري",
+        "location": "المدينة المنورة",
+        "name": "على خطاه — المعرض الإسلامي",
+        "sector": "ثقافي وديني"
+      }
+    },
+    "filters": {
+      "active": "نشط",
+      "all": "الكل",
+      "completed": "مكتمل",
+      "upcoming": "قادم"
+    },
+    "header": {
+      "addNewToast": "إضافة معرض جديد — قريباً",
+      "description": "إدارة ومتابعة جميع معارضك وفعالياتك",
+      "imageAlt": "المعارض",
+      "title": "إدارة المعارض"
+    },
+    "stats": {
+      "bookedUnits": "الوحدات المحجوزة",
+      "occupancyRate": "معدل الإشغال",
+      "totalExhibitions": "إجمالي المعارض",
+      "totalRevenue": "إجمالي الإيرادات"
+    }
+  },
+  "dealRoom": {
+    "title": "غرف الصفقات",
+    "subtitle": "إدارة ومتابعة صفقاتك الاستثمارية",
+    "activeDeal": "صفقة نشطة",
+    "dealValue": "قيمة الصفقة",
+    "dealStatus": "حالة الصفقة",
+    "negotiation": "تفاوض",
+    "dueDiligence": "فحص نافي للجهالة",
+    "closing": "إغلاق",
+    "closed": "مُغلقة",
+    "documents": "المستندات",
+    "timeline": "الجدول الزمني",
+    "parties": "الأطراف",
+    "noDeals": "لا توجد صفقات نشطة",
+    "advancedTechnologyCompany": "شركة التقنية المتقدمة",
+    "alRiyadaTradingCompany": "شركة الريادة للتجارة",
+    "approved": "تمت الموافقة",
+    "commercialLease": "تأجير تجاري",
+    "dealRooms": "غرف الصفقات",
+    "directPurchase": "شراء مباشر",
+    "exclusiveSponsorship": "رعاية حصرية",
+    "exclusiveSponsorshipDescription": "رعاية حصرية لمنطقة VIP في موسم الرياض مع حقوق تسويقية كاملة",
+    "investmentPartnership": "شراكة استثمارية",
+    "investmentPartnershipDescription": "شراكة استثمارية لتطوير وتشغيل 5 وحدات تجارية في المنطقة A",
+    "jointInvestmentBoulevard": "استثمار مشترك — بوليفارد وورلد المنطقة A",
+    "jointVenture": "مشروع مشترك",
+    "jointVentureDescription": "مشروع مشترك لتطوير منصة تقنية لإدارة المعارض بالذكاء الاصطناعي",
+    "jointVentureTechPlatform": "مشروع مشترك — منصة تقنية",
+    "lastWeek": "الأسبوع الماضي",
+    "longTermLeaseKAFD": "عقد تأجير طويل الأمد — معرض KAFD",
+    "luxuryGroup": "مجموعة الفخامة",
+    "madinah": "المدينة المنورة",
+    "mahamAICompany": "شركة مهام AI",
+    "manageDeals": "إدارة ومتابعة جميع الصفقات والمفاوضات الاستثمارية",
+    "onHisStepsFoundation": "مؤسسة على خطاه",
+    "rejected": "مرفوض",
+    "riyadh": "الرياض",
+    "riyadhKAFD": "الرياض — KAFD",
+    "signed": "تم التوقيع",
+    "sinceFourHours": "منذ 4 ساعات",
+    "sinceTwoHours": "منذ ساعتين",
+    "sponsorshipDealRiyadhSeason": "صفقة رعاية — موسم الرياض 2026",
+    "today": "اليوم",
+    "twelveMonthLeaseDescription": "عقد تأجير لمدة 12 شهر لمساحة تقنية متكاملة",
+    "unitPurchaseOnHisSteps": "شراء وحدات — على خطاه 2026",
+    "unitPurchaseOnHisStepsDescription": "شراء 3 وحدات تجارية في معرض على خطاه",
+    "yesterday": "أمس"
+  },
+  "bookings": {
+    "title": "طلبات الحجز",
+    "subtitle": "إدارة ومتابعة طلبات حجز الوحدات",
+    "bookingId": "رقم الطلب",
+    "unitName": "اسم الوحدة",
+    "exhibitionName": "اسم المعرض",
+    "bookingDate": "تاريخ الطلب",
+    "bookingStatus": "حالة الطلب",
+    "totalPrice": "السعر الإجمالي",
+    "newBooking": "طلب حجز جديد",
+    "cancelBooking": "إلغاء الطلب",
+    "noBookings": "لا توجد طلبات حجز",
+    "filterAll": "الكل",
+    "headerAlt": "طلبات الحجز",
+    "headerDescription": "مراجعة وإدارة طلبات حجز التجار",
+    "headerTitle": "طلبات الحجز",
+    "searchPlaceholder": "بحث باسم التاجر أو الشركة...",
+    "statsApproved": "موافق عليها",
+    "statsPending": "قيد المراجعة",
+    "statsRejected": "مرفوضة",
+    "statsTotal": "إجمالي الطلبات",
+    "statusApproved": "موافق",
+    "statusPending": "قيد المراجعة",
+    "statusRejected": "مرفوض",
+    "statusUpdateSuccess": "تم تحديث حالة الطلب"
+  },
+  "contracts": {
+    "title": "العقود",
+    "subtitle": "إدارة ومتابعة العقود الاستثمارية",
+    "contractId": "رقم العقد",
+    "contractType": "نوع العقد",
+    "contractValue": "قيمة العقد",
+    "signDate": "تاريخ التوقيع",
+    "expiryDate": "تاريخ الانتهاء",
+    "contractStatus": "حالة العقد",
+    "signed": "مُوقّع",
+    "draft": "مسودة",
+    "signContract": "توقيع العقد",
+    "downloadContract": "تحميل العقد",
+    "noContracts": "لا توجد عقود",
+    "filters": {
+      "all": "الكل"
+    },
+    "header": {
+      "description": "متابعة العقود والتوقيعات الإلكترونية",
+      "imageAlt": "إدارة العقود",
+      "title": "إدارة العقود"
+    },
+    "stats": {
+      "activeContracts": "العقود الفعالة",
+      "contractsValue": "قيمة العقود",
+      "pendingContracts": "بانتظار التوقيع",
+      "totalContracts": "إجمالي العقود"
+    },
+    "status": {
+      "expired": "منتهي",
+      "pendingSignature": "بانتظار التوقيع"
+    },
+    "toast": {
+      "signedSuccess": "تم توقيع العقد بنجاح"
+    }
+  },
+  "payments": {
+    "title": "المدفوعات",
+    "subtitle": "إدارة ومتابعة المدفوعات والمعاملات المالية",
+    "paymentId": "رقم المعاملة",
+    "paymentDate": "تاريخ الدفع",
+    "paymentMethod": "طريقة الدفع",
+    "paymentStatus": "حالة الدفع",
+    "paid": "مدفوع",
+    "unpaid": "غير مدفوع",
+    "overdue": "متأخر",
+    "refunded": "مُسترد",
+    "bankTransfer": "تحويل بنكي",
+    "creditCard": "بطاقة ائتمان",
+    "cash": "نقدي",
+    "makePayment": "إجراء دفعة",
+    "noPayments": "لا توجد معاملات مالية",
+    "currency": "ر.س",
+    "filter": {
+      "all": "الكل",
+      "pending": "معلقة",
+      "received": "مستلمة"
+    },
+    "imageAlt": "المدفوعات",
+    "pending": "المعلقة",
+    "received": "المستلمة",
+    "total": "الإجمالي",
+    "totalTransactions": "إجمالي المعاملات"
+  },
+  "analytics": {
+    "title": "التحليلات",
+    "subtitle": "تحليلات متقدمة لأداء استثماراتك",
+    "overview": "نظرة عامة",
+    "revenue": "الإيرادات",
+    "expenses": "المصروفات",
+    "profit": "الأرباح",
+    "growth": "النمو",
+    "monthlyRevenue": "الإيرادات الشهرية",
+    "yearlyRevenue": "الإيرادات السنوية",
+    "revenueByCategory": "الإيرادات حسب التصنيف",
+    "topPerformers": "الأفضل أداءً",
+    "trends": "الاتجاهات",
+    "charts": {
+      "expenses": "المصروفات",
+      "monthlyRevenueAndExpenses": "الإيرادات والمصروفات الشهرية",
+      "occupancy": "الإشغال",
+      "occupancyByExhibition": "معدلات الإشغال حسب المعرض",
+      "revenue": "الإيرادات",
+      "sectorDistribution": "توزيع القطاعات"
+    },
+    "exhibitions": {
+      "boulevardWorld": "بوليفارد وورلد",
+      "jeddahExhibition": "معرض جدة",
+      "kafdExhibition": "معرض KAFD",
+      "kafdTechnology": "KAFD للتقنية",
+      "onHisSteps": "على خطاه"
+    },
+    "header": {
+      "description": "تحليلات شاملة لأداء الاستثمارات والمعارض",
+      "title": "التحليلات"
+    },
+    "kpis": {
+      "merchantsCount": "عدد التجار",
+      "netProfit": "صافي الربح",
+      "occupancyRate": "معدل الإشغال",
+      "totalRevenue": "إجمالي الإيرادات"
+    },
+    "months": {
+      "april": "أبريل",
+      "february": "فبراير",
+      "january": "يناير",
+      "june": "يونيو",
+      "march": "مارس",
+      "may": "مايو"
+    },
+    "sectors": {
+      "fashion": "أزياء",
+      "food": "أغذية",
+      "other": "أخرى",
+      "retail": "تجزئة",
+      "technology": "تقنية"
+    },
+    "tables": {
+      "exhibitionPerformance": "أداء المعارض"
+    }
+  },
+  "digitalTwin": {
+    "title": "التوأم الرقمي",
+    "subtitle": "خريطة تفاعلية ثلاثية الأبعاد للمعارض",
+    "heatmap": "الخريطة الحرارية",
+    "visitorFlow": "حركة الزوار",
+    "zoneAnalysis": "تحليل المناطق",
+    "realTimeData": "بيانات لحظية",
+    "advancedTechnology": "شركة التقنية المتقدمة",
+    "alAsalaTrading": "شركة الأصالة للتجارة",
+    "alNokhbaMarketing": "شركة النخبة للتسويق",
+    "alRiyadaTrading": "شركة الريادة للتجارة",
+    "available": "متاح",
+    "booked": "محجوز",
+    "details": {
+      "clickToView": "اضغط على أي وحدة لعرض التفاصيل"
+    },
+    "gourmetGroup": "مجموعة الذواقة",
+    "header": {
+      "description": "خريطة تفاعلية لتوزيع الوحدات والتحليلات الحية",
+      "title": "التوأم الرقمي — بوليفارد وورلد"
+    },
+    "luxuryFlowers": "متجر الزهور الفاخرة",
+    "luxuryGroup": "مجموعة الفخامة",
+    "mahamAI": "شركة مهام AI",
+    "map": {
+      "mainEntrance": "المدخل الرئيسي",
+      "title": "مخطط المعرض"
+    },
+    "modernFashionHouse": "دار الأزياء العصرية",
+    "onHisSteps": "مؤسسة على خطاه",
+    "orientalPerfumes": "دار العطور الشرقية",
+    "pending": "معلق",
+    "saudiCreativityAgency": "وكالة الإبداع السعودية",
+    "stats": {
+      "occupancyRate": "نسبة الإشغال",
+      "totalUnits": "إجمالي الوحدات",
+      "visitorsPerDay": "الزوار / يوم"
+    },
+    "unitA01": "وحدة A-01",
+    "unitA02": "وحدة A-02",
+    "unitA03": "وحدة A-03",
+    "unitA04": "وحدة A-04",
+    "unitA05": "وحدة A-05",
+    "unitB01": "وحدة B-01",
+    "unitB02": "وحدة B-02",
+    "unitB03": "وحدة B-03",
+    "unitB04": "وحدة B-04",
+    "unitC01": "وحدة C-01",
+    "unitC02": "وحدة C-02",
+    "unitC03": "وحدة C-03",
+    "unitC04": "وحدة C-04",
+    "unitD01": "وحدة D-01",
+    "unitD02": "وحدة D-02",
+    "unitD03": "وحدة D-03",
+    "viewToggle": {
+      "heatmap": "خريطة حرارية",
+      "unitsMap": "خريطة الوحدات"
+    }
+  },
+  "liveEconomy": {
+    "title": "الاقتصاد الحي",
+    "subtitle": "مؤشرات اقتصادية لحظية لقطاع المعارض والفعاليات",
+    "marketIndex": "مؤشر السوق",
+    "tradingVolume": "حجم التداول",
+    "activeTraders": "المتداولون النشطون",
+    "marketCap": "القيمة السوقية",
+    "averageBasket": "متوسط السلة",
+    "averageDwellTime": "وقت البقاء المتوسط",
+    "boulevardWorld": "بوليفارد وورلد",
+    "conversionRate": "معدل التحويل",
+    "currentVisitors": "الزوار الحاليون",
+    "entertainment": "ترفيه",
+    "eventPerformance": "أداء الفعاليات",
+    "foodAndBeverage": "أغذية ومشروبات",
+    "kafdTechExpo": "معرض KAFD للتقنية",
+    "lastUpdatedNow": "آخر تحديث: الآن",
+    "liveAnalytics": "تحليلات لحظية لأداء جميع الفعاليات والمعارض",
+    "liveEconomyAlt": "الاقتصاد الحي",
+    "liveEconomyDashboard": "لوحة الاقتصاد الحي",
+    "liveRevenue": "الإيرادات اللحظية",
+    "onHisSteps2026": "على خطاه 2026",
+    "retail": "تجارة تجزئة",
+    "revenue": "الإيرادات",
+    "riyadhSeason2026": "موسم الرياض 2026",
+    "sectorDistribution": "توزيع القطاعات",
+    "services": "خدمات",
+    "technology": "تقنية",
+    "totalSar": "إجمالي ر.س",
+    "transactionsPerHour": "المعاملات / ساعة",
+    "visitorAndRevenueMovement": "حركة الزوار والإيرادات — اليوم",
+    "visitors": "الزوار"
+  },
+  "investorLogin": {
+    "title": "تسجيل الدخول",
+    "subtitle": "أدخل رقم جوالك لتلقي رمز التحقق",
+    "phonePlaceholder": "5XXXXXXXX",
+    "sendOTP": "إرسال رمز التحقق",
+    "demoAccess": "دخول تجريبي (بدون OTP)",
+    "backToHome": "العودة للصفحة الرئيسية",
+    "otpTitle": "رمز التحقق",
+    "otpSubtitle": "أدخل الرمز المرسل إلى",
+    "verify": "تحقق",
+    "resendOTP": "إعادة إرسال الرمز",
+    "resendIn": "إعادة الإرسال خلال",
+    "seconds": "ثانية",
+    "changeNumber": "تغيير الرقم",
+    "registerTitle": "أكمل ملفك الاستثماري",
+    "registerSubtitle": "معلومات أساسية لتخصيص تجربتك",
+    "fullName": "الاسم الكامل",
+    "fullNamePlaceholder": "أدخل اسمك الكامل",
+    "investmentInterest": "نوع الاهتمام الاستثماري",
+    "selectInterest": "اختر نوع الاهتمام",
+    "regionOptional": "المنطقة (اختياري)",
+    "selectRegion": "اختر المنطقة",
+    "enterPlatform": "ادخل المنصة",
+    "interests": {
+      "exhibitions": "المعارض والفعاليات",
+      "retail": "التجزئة والمحلات",
+      "foodBeverage": "الأغذية والمشروبات",
+      "entertainment": "الترفيه والتسلية",
+      "technology": "التقنية والابتكار",
+      "realEstate": "العقارات والمساحات",
+      "general": "استثمار عام"
+    },
+    "regions": {
+      "riyadh": "الرياض",
+      "makkah": "مكة المكرمة",
+      "madinah": "المدينة المنورة",
+      "eastern": "المنطقة الشرقية",
+      "qassim": "القصيم",
+      "hail": "حائل",
+      "tabuk": "تبوك",
+      "northern": "الحدود الشمالية",
+      "jazan": "جازان",
+      "najran": "نجران",
+      "baha": "الباحة",
+      "jawf": "الجوف",
+      "asir": "عسير"
+    }
+  },
+  "landing": {
+    "heroTag": "المنصة الاستثمارية الأولى لمشاريع الفعاليات في المملكة",
+    "heroTitleLine1": "أدِر مشاريع الفعاليات",
+    "heroTitleHighlight": "الكبرى",
+    "heroTitleLine2": "من منصة واحدة",
+    "heroSubtitle": "منصة متكاملة للمستثمرين ومشغّلي المشاريع الكبرى — من بوليفارد وورلد إلى المعارض الدولية. قسّم المساحات، أجّر الوحدات للتجار، وتابع عوائدك لحظياً.",
+    "heroDescription": "سواء كنت شركة تشغيل حكومية أو مجموعة استثمارية خاصة — بوابة المستثمر تمنحك السيطرة الكاملة.",
+    "enterPlatform": "لوحة التحكم",
+    "enterPlatformGuest": "ادخل المنصة",
+    "discoverPlatform": "اكتشف المنصة",
+    "switchLanguage": "English",
+    "projectVolume": "ريال حجم المشاريع",
+    "activeProjects": "مشروع فعالية نشط",
+    "commercialUnits": "وحدة تجارية مؤجرة",
+    "luxuryEventAlt": "فعالية فاخرة",
+    "occupancyRate": "نسبة الإشغال",
+    "activeTraders": "تاجر نشط",
+    "who": {
+      "sectionTitle": "لمن المنصة؟",
+      "title": "صُممت لصانعي القرار في",
+      "titleHighlight": "المشاريع الكبرى",
+      "description": "بوابة المستثمر مصممة خصيصاً للجهات التي تتسلم وتدير مشاريع فعاليات ومعارض ومؤتمرات ضخمة في المملكة.",
+      "audiences": [
+        {
+          "title": "شركات التشغيل الكبرى",
+          "desc": "شركات مثل صلة وغيرها تدير مشاريع ضخمة كبوليفارد وورلد وتحتاج أدوات متقدمة لإدارة المساحات والوحدات التجارية.",
+          "tag": "بوليفارد وورلد — موسم الرياض"
+        },
+        {
+          "title": "الجهات الحكومية والهيئات",
+          "desc": "هيئات الترفيه والسياحة وأمانات المناطق التي تشرف على مشاريع فعاليات وطنية وتحتاج شفافية كاملة.",
+          "tag": "هيئة الترفيه — المعارض الوطنية"
+        },
+        {
+          "title": "المجموعات الاستثمارية الدولية",
+          "desc": "شركات دولية تدير مشاريع في المملكة وتحتاج منصة موحدة لإدارة عدة مشاريع من مكان واحد.",
+          "tag": "KAFD Events — المعارض الدولية"
+        },
+        {
+          "title": "المستثمرون الفرعيون",
+          "desc": "مستثمرون يتسلمون أقساماً من مشاريع كبرى ويديرونها ويؤجرون وحداتها للتجار مباشرة.",
+          "tag": "مشغّل منطقة F&B في فعالية موسمية"
+        }
+      ]
+    },
+    "why": {
+      "sectionTitle": "لماذا المنصة؟",
+      "title": "كل ما تحتاجه لإدارة",
+      "titleHighlight": "مشاريع الفعاليات",
+      "values": [
+        {
+          "title": "تقسيم ذكي للمساحات",
+          "desc": "قسّم مشروعك إلى وحدات تجارية (أكشاك، محلات، أجنحة، مناطق F&B) بمرونة كاملة وإدارة رقمية."
+        },
+        {
+          "title": "تعظيم العوائد الإيجارية",
+          "desc": "أدوات تسعير ذكية وتحليلات AI تساعدك على تحقيق أعلى عائد من كل متر مربع."
+        },
+        {
+          "title": "إدارة التجار والمستأجرين",
+          "desc": "استقبل طلبات التجار، أدر العقود، تابع المدفوعات من مكان واحد."
+        },
+        {
+          "title": "تفويض لمستثمرين فرعيين",
+          "desc": "سلّم أقساماً من مشروعك لمستثمرين فرعيين وتابع أداءهم من لوحة تحكم موحدة."
+        },
+        {
+          "title": "ذكاء اصطناعي تنبؤي",
+          "desc": "توقعات إشغال وتحليل أداء واقتراحات تسعير مبنية على بيانات حقيقية."
+        },
+        {
+          "title": "أمان وشفافية مؤسسية",
+          "desc": "تقارير مالية مفصلة، سجل تدقيق كامل، وتوافق مع ZATCA وSAMA."
+        }
+      ]
+    },
+    "how": {
+      "sectionTitle": "كيف تعمل المنصة؟",
+      "title": "من تسلّم المشروع إلى",
+      "titleHighlight": "تحقيق العوائد",
+      "spaceManagementAlt": "إدارة المساحات",
+      "steps": [
+        {
+          "num": "01",
+          "title": "تسلّم مشروعك",
+          "desc": "سجّل مشروع الفعالية أو المعرض. حدد المساحة الكلية، الموقع، ومدة التشغيل."
+        },
+        {
+          "num": "02",
+          "title": "قسّم المساحات لوحدات",
+          "desc": "استخدم أداة التقسيم الذكية لتحويل المساحة إلى وحدات مصنّفة (Retail, F&B, VIP)."
+        },
+        {
+          "num": "03",
+          "title": "أجّر للتجار أو فوّض",
+          "desc": "اعرض الوحدات في سوق التأجير، استقبل طلبات التجار، أو سلّم لمستثمرين فرعيين."
+        },
+        {
+          "num": "04",
+          "title": "تابع العوائد لحظياً",
+          "desc": "لوحة تحكم ذكية تعرض الإشغال، الإيرادات، وتقارير مالية تفصيلية."
+        }
+      ]
+    },
+    "stats": {
+      "sectionTitle": "بالأرقام",
+      "title": "أرقام تتحدث عن",
+      "titleHighlight": "حجم المنصة",
+      "items": [
+        {
+          "label": "ريال حجم المشاريع"
+        },
+        {
+          "label": "مشروع فعالية نشط"
+        },
+        {
+          "label": "وحدة تجارية مؤجرة"
+        },
+        {
+          "label": "تاجر مسجل"
+        },
+        {
+          "label": "نسبة إشغال الوحدات"
+        },
+        {
+          "label": "وقت تشغيل المنصة"
+        }
+      ]
+    },
+    "features": {
+      "sectionTitle": "قدرات المنصة",
+      "title": "أدوات",
+      "titleHighlight": "احترافية",
+      "titleSuffix": "لإدارة مشاريع الفعاليات",
+      "items": [
+        {
+          "title": "خريطة رقمية تفاعلية",
+          "desc": "Digital Twin ثلاثي الأبعاد لمشروعك. شاهد كل وحدة وحالة الإشغال لحظياً."
+        },
+        {
+          "title": "سوق المساحات والوحدات",
+          "desc": "اعرض وحداتك المتاحة للتأجير. التجار يتصفحون ويقدمون طلبات حجز مباشرة."
+        },
+        {
+          "title": "عقود إيجار إلكترونية",
+          "desc": "أنشئ عقود رقمية، وقّعها إلكترونياً، وتابع حالة كل عقد."
+        },
+        {
+          "title": "تقارير مالية متقدمة",
+          "desc": "إيرادات ومصروفات وصافي أرباح. تقارير متوافقة مع ZATCA."
+        },
+        {
+          "title": "مستشار AI للاستثمار",
+          "desc": "خوارزميات ذكية تحلل أداء مشاريعك وتقترح تحسينات."
+        },
+        {
+          "title": "دعم مؤسسي متواصل",
+          "desc": "فريق دعم مخصص ومدير حساب شخصي على مدار الساعة."
+        }
+      ]
+    },
+    "testimonials": {
+      "sectionTitle": "شهادات المستثمرين",
+      "title": "ماذا يقول",
+      "titleHighlight": "شركاؤنا",
+      "titleSuffix": "عن المنصة",
+      "items": [
+        {
+          "name": "م. عبدالرحمن الشمري",
+          "role": "مدير تشغيل — مجموعة استثمارية كبرى",
+          "text": "ندير 8 مشاريع فعاليات في 3 مدن سعودية. قبل المنصة كان التنسيق كابوس. الآن كل شيء في مكان واحد.",
+          "initials": "ع.ش"
+        },
+        {
+          "name": "أ. سارة القحطاني",
+          "role": "مديرة الاستثمارات — شركة تشغيل فعاليات",
+          "text": "المنصة غيّرت طريقة عملنا. التحليلات التنبؤية ساعدتنا نرفع الإشغال من 78% إلى 96% في موسم واحد.",
+          "initials": "س.ق"
+        },
+        {
+          "name": "د. فهد المطيري",
+          "role": "الرئيس التنفيذي — شركة معارض دولية",
+          "text": "كشركة دولية في السوق السعودي، مهام إكسبو وفّرت لنا كل شيء — من العقود الإلكترونية إلى التوافق مع ZATCA.",
+          "initials": "ف.م"
+        }
+      ]
+    },
+    "faq": {
+      "sectionTitle": "الأسئلة الشائعة",
+      "title": "أسئلة",
+      "titleHighlight": "المستثمرين",
+      "items": [
+        {
+          "q": "ما نوع المشاريع التي يمكن إدارتها عبر المنصة؟",
+          "a": "المنصة مصممة لإدارة أي مشروع فعالية أو معرض أو مؤتمر يتضمن مساحات تجارية قابلة للتأجير. سواء كان مشروعاً موسمياً مثل بوليفارد وورلد، أو معرضاً تجارياً دولياً، أو فعالية حكومية — المنصة تدعم جميع الأنواع."
+        },
+        {
+          "q": "كيف يعمل نظام تقسيم المساحات؟",
+          "a": "تقوم بتسجيل المساحة الكلية لمشروعك، ثم تستخدم أداة التقسيم الذكية لتحويلها إلى وحدات مصنّفة. كل وحدة لها مساحتها وسعرها وحالتها. يمكنك تعديل التقسيم في أي وقت."
+        },
+        {
+          "q": "هل يمكنني تفويض أقسام من مشروعي لمستثمرين فرعيين؟",
+          "a": "نعم. يمكنك تسليم أقسام كاملة من مشروعك لمستثمرين فرعيين يديرونها بشكل مستقل. ستتابع أداءهم وعوائدهم من لوحة التحكم الخاصة بك."
+        },
+        {
+          "q": "ما مستوى الأمان والتوافق التنظيمي؟",
+          "a": "المنصة متوافقة مع معايير ZATCA وSAMA وIFRS. جميع البيانات مشفرة، مع سجل تدقيق كامل لكل عملية."
+        },
+        {
+          "q": "كيف يتم التعامل مع عقود الإيجار؟",
+          "a": "المنصة توفر نظام عقود إيجار إلكترونية كامل. تنشئ العقد، يوقّعه التاجر إلكترونياً، وتتابع حالته من البداية حتى انتهاء المدة."
+        },
+        {
+          "q": "هل المنصة مناسبة للجهات الحكومية؟",
+          "a": "بالتأكيد. المنصة مصممة لتلبية متطلبات الجهات الحكومية من حيث الشفافية، التقارير التفصيلية، والتوافق التنظيمي."
+        }
+      ]
+    },
+    "cta": {
+      "sectionTitle": "ابدأ الآن",
+      "title": "جاهز لإدارة مشاريعك",
+      "titleHighlight": "بذكاء؟",
+      "description": "انضم للمستثمرين ومشغّلي المشاريع الذين يديرون فعالياتهم ومعارضهم عبر منصة مهام إكسبو.",
+      "enterPlatformNow": "ادخل المنصة الآن"
+    },
+    "footer": {
+      "companyDescription": "شركة مهام إكسبو لتنظيم المعارض والمؤتمرات — فرع من شركة مهام للخدمات وتقنية المعلومات",
+      "quickLinks": "روابط سريعة",
+      "aboutUs": "من نحن",
+      "privacyPolicy": "سياسة الخصوصية",
+      "termsAndConditions": "الشروط والأحكام",
+      "usageAgreement": "اتفاقية الاستخدام",
+      "contact": "تواصل معنا",
+      "allRightsReserved": "جميع الحقوق محفوظة",
+      "companyName": "شركة مهام للخدمات وتقنية المعلومات"
+    }
+  },
+  "validation": {
+    "required": "هذا الحقل مطلوب",
+    "invalidPhone": "رقم الجوال غير صحيح",
+    "invalidEmail": "البريد الإلكتروني غير صحيح",
+    "invalidOTP": "رمز التحقق غير صحيح",
+    "otpExpired": "انتهت صلاحية رمز التحقق",
+    "minLength": "يجب أن يكون على الأقل {min} أحرف",
+    "maxLength": "يجب ألا يتجاوز {max} حرف",
+    "selectOption": "يرجى اختيار خيار"
+  },
+  "errors": {
+    "general": "حدث خطأ غير متوقع",
+    "network": "خطأ في الاتصال بالشبكة",
+    "unauthorized": "غير مصرح لك بالوصول",
+    "forbidden": "الوصول محظور",
+    "notFound": "الصفحة غير موجودة",
+    "serverError": "خطأ في الخادم",
+    "timeout": "انتهت مهلة الاتصال",
+    "otpSendFailed": "فشل إرسال رمز التحقق",
+    "otpVerifyFailed": "فشل التحقق من الرمز",
+    "registrationFailed": "فشل التسجيل"
+  },
+  "aiAdvisor": {
+    "aiResponse": "بناءً على تحليل محفظتك الحالية وظروف السوق، أنصح بالاستثمار في مساحة التجزئة الفاخرة في بوليفارد وورلد. الموقع الاستراتيجي يستقبل 45,000 زائر يومياً مع ROI متوقع 68%.",
+    "chat": {
+      "placeholder": "اسأل المستشار الذكي..."
+    },
+    "description": "تحليلات ذكية وتوصيات مخصصة مبنية على بيانات محفظتك وظروف السوق",
+    "headerImageAlt": "المستشار الذكي",
+    "match": "تطابق",
+    "matchingEngine": {
+      "description": "يحلل ملفك الاستثماري ومحفظتك الحالية لاقتراح أفضل الفرص المتوافقة",
+      "title": "محرك المطابقة الذكي"
+    },
+    "tabs": {
+      "aiChat": "محادثة AI",
+      "insights": "رؤى ذكية",
+      "matchingEngine": "محرك المطابقة"
+    },
+    "title": "المستشار الاستثماري الذكي"
+  },
+  "aiInsights": {
+    "category": {
+      "alert": "تنبيه",
+      "analysis": "تحليل",
+      "opportunity": "فرصة",
+      "strategy": "استراتيجية"
+    },
+    "diversificationRecommendation": {
+      "description": "محفظتك مركزة بنسبة 65% في قطاع التجزئة. يُنصح بتنويع الاستثمارات في قطاع التقنية والترفيه.",
+      "title": "توصية تنويع"
+    },
+    "highValueOpportunity": {
+      "description": "بوليفارد وورلد — المنطقة A تُظهر نمواً بنسبة 23% في حركة الزوار. يُنصح بزيادة الاستثمار في وحدات التجزئة.",
+      "title": "فرصة عالية القيمة"
+    },
+    "outstandingPerformance": {
+      "description": "وحدة C-03 (شركة مهام AI) تحقق أعلى عائد على الاستثمار بنسبة 40%. يُنصح بدراسة نموذج العمل.",
+      "title": "أداء متميز"
+    },
+    "riskAlert": {
+      "description": "قطاع الأغذية في معرض KAFD يُظهر تراجعاً طفيفاً في معدل التحويل. يُنصح بمراجعة استراتيجية التسعير.",
+      "title": "تنبيه مخاطر"
+    }
+  },
+  "communications": {
+    "advancedTechnologyCompany": "شركة التقنية المتقدمة",
+    "alRiyadaTradingCompany": "شركة الريادة للتجارة",
+    "awaitingBookingApproval": "في انتظار الموافقة على طلب الحجز",
+    "bookingRequestUnitA04": "طلب حجز — وحدة A-04",
+    "boulevardWorldManagement": "إدارة بوليفارد وورلد",
+    "communicationsHub": "مركز الاتصالات",
+    "consultant": "مستشار",
+    "contractReviewed": "تم مراجعة العقد وإرسال الملاحظات",
+    "directCommunication": "تواصل مباشر مع المستأجرين والشركاء وفريق الإدارة",
+    "exhibitionOrganizer": "منظم المعرض",
+    "kafdExhibitionManagement": "إدارة معرض KAFD",
+    "legalCounsel": "المستشار القانوني",
+    "mahamAITeam": "فريق مهام AI",
+    "monthlyReportReady": "التقرير الشهري جاهز للمراجعة",
+    "nextMeetingTuesday": "موعد الاجتماع القادم يوم الثلاثاء",
+    "operationsManager": "مدير العمليات",
+    "renewContract6Months": "نود تجديد العقد لمدة 6 أشهر إضافية",
+    "saturday": "السبت",
+    "searchConversations": "بحث في المحادثات...",
+    "sunday": "الأحد",
+    "technicalPartner": "شريك تقني",
+    "tenantUnitB03": "مستأجر — وحدة B-03",
+    "writeYourMessage": "اكتب رسالتك...",
+    "yesterday": "أمس",
+    "zoneAMapUpdatedSuccessfully": "تم تحديث مخطط المنطقة A بنجاح"
+  },
+  "documentVault": {
+    "all": "الكل",
+    "approved": "معتمد",
+    "blueprints": "مخططات",
+    "commercialRegistration": "شهادة تسجيل تجاري",
+    "contracts": "عقود",
+    "description": "تخزين وإدارة جميع المستندات والعقود بشكل آمن ومشفر",
+    "documentVault": "خزنة المستندات",
+    "downloadComingSoon": "تحميل المستند — قريباً",
+    "exhibitionBlueprint": "مخطط المعرض — المنطقة A",
+    "final": "نهائي",
+    "investmentContract": "عقد استثمار — بوليفارد وورلد",
+    "invoices": "فواتير",
+    "legal": "قانونية",
+    "municipalLicense": "رخصة بلدية — موقع B",
+    "paid": "مدفوع",
+    "partnershipAgreement": "عقد شراكة — شركة مهام AI",
+    "pending": "معلق",
+    "performanceReportQ1": "تقرير أداء Q1 2026",
+    "previewComingSoon": "معاينة المستند — قريباً",
+    "rentInvoice": "فاتورة إيجار — وحدة A-01",
+    "reports": "تقارير",
+    "riskAnalysisReport": "تقرير تحليل المخاطر",
+    "searchPlaceholder": "بحث في المستندات...",
+    "signed": "موقع",
+    "signedDocuments": "مستندات موقعة",
+    "storageStats": "إحصائيات التخزين",
+    "theBlueprints": "المخططات",
+    "theContracts": "العقود",
+    "theInvoices": "الفواتير",
+    "theLegal": "القانونية",
+    "theReports": "التقارير",
+    "title": "خزنة المستندات",
+    "totalDocuments": "إجمالي المستندات",
+    "uploadComingSoon": "رفع المستندات — قريباً",
+    "usedSpace": "المساحة المستخدمة",
+    "verified": "موثق",
+    "waitingForSignature": "في انتظار التوقيع"
+  },
+  "exhibitionMap": {
+    "details": {
+      "placeholder": "اضغط على أي وحدة لعرض تفاصيلها"
+    },
+    "grid": {
+      "title": "معرض KAFD للتقنية والابتكار 2026"
+    },
+    "header": {
+      "description": "عرض توزيع الوحدات وحالات الحجز",
+      "imageAlt": "خريطة المعرض",
+      "title": "خريطة المعرض"
+    },
+    "summary": {
+      "occupancyRate": "نسبة الإشغال",
+      "title": "ملخص المعرض",
+      "totalUnits": "إجمالي الوحدات"
+    }
+  },
+  "financialCenter": {
+    "cashFlow": "التدفق النقدي",
+    "currency": "ر.س",
+    "expenses": "المصروفات",
+    "latestTransactions": "آخر المعاملات المالية",
+    "monthlyRevenueAndExpenses": "الإيرادات والمصروفات الشهرية",
+    "netProfit": "صافي الربح",
+    "returnOnInvestment": "العائد على الاستثمار",
+    "revenue": "الإيرادات",
+    "subtitle": "تحليلات مالية شاملة وتتبع التدفقات النقدية",
+    "title": "المركز المالي",
+    "totalAssets": "إجمالي الأصول",
+    "transactionCategory": {
+      "commissions": "عمولات",
+      "maintenance": "صيانة",
+      "marketing": "تسويق",
+      "rentalRevenue": "إيرادات إيجار"
+    }
+  },
+  "investorProfile": {
+    "achievementsAndBadges": "الإنجازات والشارات",
+    "activeInvestments": "استثمارات نشطة",
+    "bio": "مستثمر استراتيجي متخصص في قطاع التقنية والعقارات التجارية مع خبرة تزيد عن 10 سنوات في إدارة المحافظ الاستثمارية والمعارض التجارية.",
+    "changesSaved": "تم حفظ التغييرات",
+    "city": "الرياض",
+    "cityLabel": "المدينة",
+    "companyInfo": "معلومات الشركة",
+    "companyName": "مجموعة مهام للاستثمار",
+    "companyNameEnLabel": "الاسم بالإنجليزية",
+    "companyNameLabel": "اسم الشركة",
+    "contactInfo": "معلومات التواصل",
+    "country": "المملكة العربية السعودية",
+    "countryLabel": "الدولة",
+    "diversifiedPortfolio": "محفظة متنوعة",
+    "diversifiedPortfolioDesc": "الاستثمار في 3+ قطاعات مختلفة",
+    "emailLabel": "البريد الإلكتروني",
+    "expoPioneer": "رائد المعارض",
+    "expoPioneerDesc": "المشاركة في 5+ معارض",
+    "investorType": "مؤسسي",
+    "investorTypeLabel": "نوع المستثمر",
+    "outstandingReturn": "عائد متميز",
+    "outstandingReturnDesc": "تحقيق ROI أعلى من 30%",
+    "phoneLabel": "رقم الهاتف",
+    "platinumInvestor": "مستثمر بلاتيني",
+    "platinumInvestorDesc": "تجاوز حجم الاستثمارات 10M ر.س",
+    "registrationNumberLabel": "السجل التجاري",
+    "sector": "تقنية المعلومات والعقارات",
+    "sectorLabel": "القطاع",
+    "taxNumberLabel": "الرقم الضريبي",
+    "totalInvested": "إجمالي المستثمر",
+    "totalInvestments": "إجمالي الاستثمارات",
+    "totalReturns": "إجمالي العوائد",
+    "verifiedInvestor": "مستثمر موثق",
+    "verifiedInvestorDesc": "إتمام التحقق من الهوية والسجل التجاري",
+    "websiteLabel": "الموقع الإلكتروني"
+  },
+  "landingPage": {
+    "footer": {
+      "contact": "تواصل معنا"
+    },
+    "how": {
+      "sectionTitle": "كيف تعمل المنصة؟",
+      "titleHighlight": "جني الأرباح"
+    },
+    "nav": {
+      "faq": "الأسئلة",
+      "howItWorks": "كيف نعمل",
+      "platform": "المنصة",
+      "whyMahamExpo": "لماذا مهام إكسبو"
+    },
+    "who": {
+      "sectionTitle": "لمن هذه المنصة؟",
+      "titleHighlight": "المشاريع الكبرى"
+    },
+    "why": {
+      "sectionTitle": "لماذا مهام إكسبو؟",
+      "titleHighlight": "مشروعك الاستثماري"
+    }
+  },
+  "matchingResults": {
+    "luxuryRetail": {
+      "opportunity": "مساحة تجزئة فاخرة — بوليفارد وورلد"
+    },
+    "reason": {
+      "highRoi": "ROI متوقع أعلى من المتوسط",
+      "matchesHistory": "يتوافق مع تاريخك الاستثماري",
+      "provenLocation": "موقع استراتيجي مثبت"
+    },
+    "risk": {
+      "low": "منخفض"
+    }
+  },
+  "months": {
+    "april": "أبريل",
+    "august": "أغسطس",
+    "december": "ديسمبر",
+    "february": "فبراير",
+    "january": "يناير",
+    "july": "يوليو",
+    "june": "يونيو",
+    "march": "مارس",
+    "may": "مايو",
+    "november": "نوفمبر",
+    "october": "أكتوبر",
+    "september": "سبتمبر"
+  },
+  "notifications": {
+    "allNotificationsMarkedAsRead": "تم تحديد جميع الإشعارات كمقروءة",
+    "booking": "حجز",
+    "bookingRequestDetails": "تقدم أحمد العتيبي من شركة الأصالة بطلب حجز وحدة A-12 في معرض KAFD للتقنية",
+    "bookingRequestDetailsNoura": "تقدمت نورة الحربي من دار الأزياء العصرية بطلب حجز وحدة C-15 في بوليفارد وورلد",
+    "bookingRequestRejected": "طلب حجز مرفوض",
+    "bookingRequestRejectedDetails": "تم رفض طلب حجز محمد الغامدي — لا يتوافق مع نوع المعرض",
+    "contract": "عقد",
+    "contractPendingSignature": "عقد بانتظار التوقيع",
+    "contractReadyForSignature": "عقد #2026-044 مع شركة التقنية المتقدمة جاهز للتوقيع الإلكتروني",
+    "contractSigned": "عقد تم توقيعه",
+    "contractSignedSuccessfully": "تم توقيع عقد #2026-042 مع شركة الأصالة للتجارة بنجاح",
+    "filterAll": "الكل",
+    "filterBookings": "حجوزات",
+    "filterContracts": "عقود",
+    "filterPayments": "مدفوعات",
+    "filterUnread": "غير مقروء",
+    "newBookingRequest": "طلب حجز جديد",
+    "noNotifications": "لا توجد إشعارات",
+    "payment": "دفعة",
+    "paymentReceived": "دفعة مستلمة",
+    "paymentReceivedDetailsBank": "تم استلام دفعة بمبلغ 180,000 ر.س من شركة الأصالة للتجارة عبر تحويل بنكي",
+    "paymentReceivedDetailsMada": "تم استلام دفعة بمبلغ 95,000 ر.س من متجر الزهور الفاخرة عبر مدى",
+    "system": "نظام",
+    "systemUpdate": "تحديث النظام",
+    "systemUpdateDetails": "تم تحديث بوابة المستثمر بميزات جديدة: حاسبة ROI وتحليلات متقدمة",
+    "title": "الإشعارات"
+  },
+  "predefinedQuestions": {
+    "bestOpportunity": "ما هي أفضل فرصة استثمارية متاحة حالياً؟",
+    "diversificationStrategy": "اقترح استراتيجية لتنويع المحفظة",
+    "improvePortfolio": "كيف يمكنني تحسين أداء محفظتي؟",
+    "potentialRisks": "ما هي المخاطر المحتملة في استثماراتي؟"
+  },
+  "roiCalculator": {
+    "currency": "ر.س",
+    "inputs": "المدخلات",
+    "investmentAmount": "مبلغ الاستثمار",
+    "netProfit": "صافي الربح",
+    "numberOfUnits": "عدد الوحدات",
+    "occupancyRate": "نسبة الإشغال",
+    "operatingCosts": "تكاليف التشغيل",
+    "pageDescription": "احسب العائد المتوقع من استثمارك في المعارض",
+    "pageTitle": "حاسبة العائد على الاستثمار",
+    "paybackPeriod": "فترة الاسترداد",
+    "profitMargin": "هامش الربح",
+    "results": "النتائج",
+    "returnOnInvestment": "العائد (ROI)",
+    "roiCalculatorAlt": "حاسبة ROI",
+    "roiIndicator": "مؤشر العائد على الاستثمار",
+    "totalRevenue": "إجمالي الإيرادات",
+    "unit": "وحدة",
+    "unitPrice": "سعر الوحدة"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "query": "SHOW TABLES;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4Z3pAY1NzprVWrk.root --database AHhCmE6wXFRhBEyZUA9P6D --execute SHOW TABLES;",
+  "rows": [
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "__drizzle_migrations"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "active_investments"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "activity_log"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "booking_requests"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "contracts"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "exhibition_units"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "exhibitions"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "investment_opportunities"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "investor_documents"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "investor_leads"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "investor_profiles"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "messages"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "notifications"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "otp_codes"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "payments"
+    },
+    {
+      "Tables_in_AHhCmE6wXFRhBEyZUA9P6D": "users"
+    }
+  ],
+  "messages": [],
+  "stdout": "Tables_in_AHhCmE6wXFRhBEyZUA9P6D\n__drizzle_migrations\nactive_investments\nactivity_log\nbooking_requests\ncontracts\nexhibition_units\nexhibitions\ninvestment_opportunities\ninvestor_documents\ninvestor_leads\ninvestor_profiles\nmessages\nnotifications\notp_codes\npayments\nusers\n",
+  "stderr": "",
+  "execution_time_ms": 1578
+}

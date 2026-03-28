@@ -1,0 +1,8 @@
+{
+  "query": "SELECT id, title, target_amount, minimum_investment, status FROM investment_opportunities LIMIT 6;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4Z3pAY1NzprVWrk.root --database AHhCmE6wXFRhBEyZUA9P6D --execute SELECT id, title, target_amount, minimum_investment, status FROM investment_opportunities LIMIT 6;",
+  "returncode": 1,
+  "logs": [
+    "ERROR 1054 (42S22) at line 1: Unknown column 'target_amount' in 'field list'"
+  ]
+}

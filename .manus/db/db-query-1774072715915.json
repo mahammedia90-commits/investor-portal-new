@@ -1,0 +1,49 @@
+{
+  "query": "SELECT id, openId, name, role FROM users LIMIT 5; SELECT COUNT(*) as cnt FROM exhibitions; SELECT COUNT(*) as cnt FROM investment_opportunities; SELECT COUNT(*) as cnt FROM active_investments; SELECT COUNT(*) as cnt FROM booking_requests; SELECT COUNT(*) as cnt FROM contracts; SELECT COUNT(*) as cnt FROM payments; SELECT COUNT(*) as cnt FROM notifications;",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4Z3pAY1NzprVWrk.root --database AHhCmE6wXFRhBEyZUA9P6D --execute SELECT id, openId, name, role FROM users LIMIT 5; SELECT COUNT(*) as cnt FROM exhibitions; SELECT COUNT(*) as cnt FROM investment_opportunities; SELECT COUNT(*) as cnt FROM active_investments; SELECT COUNT(*) as cnt FROM booking_requests; SELECT COUNT(*) as cnt FROM contracts; SELECT COUNT(*) as cnt FROM payments; SELECT COUNT(*) as cnt FROM notifications;",
+  "rows": [
+    {
+      "id": "1",
+      "openId": "5jAcoEUsqWpPSQQLa5nE6B",
+      "name": "Nour Alawab",
+      "role": "admin"
+    },
+    {
+      "id": "330001",
+      "openId": "6WiYHsPLQ33ZSkRAWGUM5p",
+      "name": "Mustafa Abouallo",
+      "role": "user"
+    },
+    {
+      "id": "990001",
+      "openId": "5NoP5adh5jPhdPmbEMFPvL",
+      "name": "NULL",
+      "role": "user"
+    },
+    {
+      "id": "1020805",
+      "openId": "2o3RmKv36MmWfzc2diACYV",
+      "name": "maham media",
+      "role": "user"
+    }
+  ],
+  "messages": [
+    "cnt",
+    "0",
+    "cnt",
+    "0",
+    "cnt",
+    "0",
+    "cnt",
+    "0",
+    "cnt",
+    "0",
+    "cnt",
+    "0",
+    "cnt",
+    "0"
+  ],
+  "stdout": "id\topenId\tname\trole\n1\t5jAcoEUsqWpPSQQLa5nE6B\tNour Alawab\tadmin\n330001\t6WiYHsPLQ33ZSkRAWGUM5p\tMustafa Abouallo\tuser\n990001\t5NoP5adh5jPhdPmbEMFPvL\tNULL\tuser\n1020805\t2o3RmKv36MmWfzc2diACYV\tmaham media\tuser\ncnt\n0\ncnt\n0\ncnt\n0\ncnt\n0\ncnt\n0\ncnt\n0\ncnt\n0\n",
+  "stderr": "",
+  "execution_time_ms": 3133
+}

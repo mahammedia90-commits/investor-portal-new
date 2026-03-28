@@ -1,0 +1,1685 @@
+{
+  "common": {
+    "appName": "Investor Portal",
+    "appSubtitle": "INVESTOR PORTAL",
+    "mahamExpo": "Maham Expo",
+    "loading": "Loading...",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "searchPlaceholder": "Search the platform...",
+    "filter": "Filter",
+    "sort": "Sort",
+    "export": "Export",
+    "import": "Import",
+    "download": "Download",
+    "upload": "Upload",
+    "viewAll": "View All",
+    "viewDetails": "View Details",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "close": "Close",
+    "yes": "Yes",
+    "no": "No",
+    "active": "Active",
+    "inactive": "Inactive",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "completed": "Completed",
+    "expired": "Expired",
+    "total": "Total",
+    "date": "Date",
+    "status": "Status",
+    "actions": "Actions",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "city": "City",
+    "region": "Region",
+    "country": "Country",
+    "amount": "Amount",
+    "currency": "SAR",
+    "currencyFull": "Saudi Riyal",
+    "percentage": "Percentage",
+    "description": "Description",
+    "notes": "Notes",
+    "type": "Type",
+    "category": "Category",
+    "priority": "Priority",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low",
+    "all": "All",
+    "none": "None",
+    "noData": "No data available",
+    "noResults": "No results found",
+    "comingSoon": "Coming Soon",
+    "featureComingSoon": "This feature is under development",
+    "error": "An error occurred",
+    "tryAgain": "Try Again",
+    "success": "Operation completed successfully",
+    "warning": "Warning",
+    "info": "Info",
+    "required": "Required",
+    "optional": "Optional",
+    "live": "Live",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "language": "Language",
+    "arabic": "العربية",
+    "english": "English",
+    "logout": "Logout",
+    "login": "Login",
+    "register": "Register",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "messages": "Messages",
+    "help": "Help",
+    "copyright": "All rights reserved",
+    "poweredBy": "Powered by Maham Expo",
+    "new": "New",
+    "expenses": "Expenses",
+    "income": "Income"
+  },
+  "nav": {
+    "home": "Home",
+    "commandCenter": "Command Center",
+    "marketplace": "Marketplace",
+    "portfolio": "My Portfolio",
+    "dealRoom": "Deal Room",
+    "exhibitions": "Exhibitions",
+    "bookings": "Bookings",
+    "contracts": "Contracts",
+    "payments": "Payments",
+    "analytics": "Analytics",
+    "digitalTwin": "Digital Twin",
+    "liveEconomy": "Live Economy",
+    "aiAdvisor": "AI Advisor",
+    "financialCenter": "Financial Center",
+    "documentVault": "Document Vault",
+    "investorProfile": "Investor Profile",
+    "communications": "Communications",
+    "roiCalculator": "ROI Calculator",
+    "exhibitionMap": "Exhibition Map",
+    "collapseMenu": "Collapse Menu",
+    "expandMenu": "Expand Menu",
+    "exhibitionManagement": "Exhibition Management",
+    "analyticsAndAI": "Analytics & AI",
+    "crmIntegration": "CRM Integration",
+    "crmDashboard": "CRM Dashboard"
+  },
+  "dashboard": {
+    "greeting": "Good Morning",
+    "welcomeBack": "Welcome Back",
+    "commandCenter": "Investment Command Center",
+    "subtitle": "A comprehensive overview of your portfolio and exhibitions performance",
+    "exploreOpportunities": "Explore Opportunities",
+    "totalRevenue": "Total Revenue",
+    "activeContracts": "Active Contracts",
+    "pendingBookings": "Pending Bookings",
+    "activeExhibitions": "Active Exhibitions",
+    "featuredExhibitions": "Featured Exhibitions",
+    "featuredSubtitle": "Top available investment opportunities",
+    "occupancy": "Occupancy",
+    "availableUnits": "available units",
+    "expectedROI": "Expected ROI",
+    "viewExhibition": "View Exhibition",
+    "recentActivity": "Recent Activity",
+    "recentActivitySubtitle": "Latest updates and events",
+    "quickActions": "Quick Actions",
+    "browseMarketplace": "Browse Marketplace",
+    "viewPortfolio": "View Portfolio",
+    "viewContracts": "View Contracts",
+    "viewAnalytics": "View Analytics",
+    "noExhibitions": "No exhibitions available at the moment",
+    "noActivity": "No recent activity",
+    "commandCenterDesc": "Investment Command Center — A comprehensive overview of your portfolio and exhibitions",
+    "exploreNewOpportunities": "Explore new investment opportunities",
+    "manageInvestments": "Manage and track your investments",
+    "advancedReports": "Advanced performance reports",
+    "realTimeMarketData": "Real-time market data",
+    "dealSuccessRate": "Deal Success Rate",
+    "investorRating": "Investor Rating",
+    "loyaltyPoints": "Loyalty Points",
+    "avgPaybackPeriod": "Avg. Payback Period",
+    "topInvestmentOpportunities": "Top available investment opportunities",
+    "quickAccessToSections": "Quick access to key sections",
+    "investorMetrics": "Investor Metrics",
+    "liveInvestmentPerformance": "Your live investment performance",
+    "aiAdvisorRecommendation": "AI Advisor Recommendation",
+    "aiSmartAnalysis": "Smart analysis based on market data",
+    "aiRecommendationText": "Based on current market data analysis, we recommend increasing investment in the Food & Beverage sector by 15% during the next quarter. The occupancy rate in this sector exceeds 92% with an expected growth of 23%.",
+    "investorLogin": {
+      "title": "Investor Portal",
+      "loginTitle": "Login",
+      "sendOtp": "Send Verification Code",
+      "or": "or",
+      "enterPhoneFirst": "Please enter your phone number first",
+      "otpTitle": "Verification Code",
+      "verify": "Verify",
+      "resendCountdown": "Resend ({countdown}s)",
+      "resend": "Resend",
+      "completeProfile": "Complete Your Investment Profile",
+      "fullNamePlaceholder": "Enter your full name",
+      "optional": "(Optional)",
+      "selectRegion": "Select Region",
+      "welcome": "Welcome",
+      "invalidPhone": "Please enter a valid phone number",
+      "otpSendError": "Error sending verification code",
+      "invalidOtp": "Please enter the 6-digit verification code",
+      "wrongOtp": "Incorrect verification code",
+      "verifyError": "Error during verification",
+      "generalError": "An error occurred",
+      "nameRequired": "Please enter your full name",
+      "interestRequired": "Please select an investment interest type",
+      "registerError": "Error during registration",
+      "interests": {
+        "exhibitions": "Exhibitions & Events",
+        "realEstate": "Real Estate",
+        "foodBeverage": "Food & Beverage",
+        "retail": "Retail & Brands",
+        "entertainment": "Entertainment",
+        "technology": "Technology",
+        "general": "General Investment"
+      },
+      "regions": {
+        "riyadh": "Riyadh",
+        "makkah": "Makkah",
+        "madinah": "Madinah",
+        "eastern": "Eastern Province",
+        "qassim": "Qassim",
+        "asir": "Asir",
+        "tabuk": "Tabuk",
+        "hail": "Hail",
+        "jouf": "Al-Jouf",
+        "jazan": "Jazan",
+        "najran": "Najran",
+        "baha": "Al-Baha",
+        "northern": "Northern Borders"
+      },
+      "enterPhoneDesc": "Enter your phone number to receive a verification code",
+      "sending": "Sending...",
+      "demoBypass": "Demo Access (No OTP)",
+      "backToHome": "Back to Home",
+      "otpSentTo": "Enter the code sent to",
+      "demoMode": "Demo Mode — Verification Code:",
+      "verifying": "Verifying...",
+      "changeNumber": "Change Number",
+      "noCodeReceived": "Didn't receive code — Demo Access",
+      "profileDesc": "Simple information to personalize your experience",
+      "fullNameLabel": "Full Name",
+      "interestLabel": "Investment Interest Type",
+      "saving": "Saving...",
+      "enterPlatform": "Enter Platform",
+      "back": "Back",
+      "redirecting": "Redirecting to dashboard...",
+      "footerText": "Investor Portal"
+    },
+    "dealRoom": {
+      "title": "Deal Rooms",
+      "totalDealsValue": "Total Deal Value",
+      "activeDeals": "{count} Active Deals",
+      "totalDeals": "Total Deals",
+      "negotiating": "Negotiating",
+      "approved": "Approved",
+      "totalValue": "Total Value",
+      "all": "All",
+      "dueDiligence": "Due Diligence",
+      "signed": "Signed",
+      "dealValue": "Deal Value",
+      "location": "Location",
+      "deadline": "Deadline",
+      "documents": "Documents",
+      "documentCount": "documents",
+      "lastActivity": "Last Activity",
+      "dealProgress": "Deal Progress",
+      "openDealRoom": "Open Deal Room — Coming Soon",
+      "openChat": "Open Chat — Coming Soon",
+      "sar": "SAR",
+      "riyadh": "Riyadh",
+      "mSar": "M SAR",
+      "chats": "Chats"
+    },
+    "marketplace": {
+      "lowRisk": "Low",
+      "mediumRisk": "Medium",
+      "highRisk": "High",
+      "riskLabel": "Risk: {level}",
+      "visitorsPerDay": "{count} visitors/day",
+      "sar": "SAR",
+      "perDay": "/ day",
+      "riyadh": "Riyadh",
+      "madinah": "Madinah",
+      "viewDetails": "View Details",
+      "commitInvestment": "Commit to Investment"
+    },
+    "home": {
+      "sar": "SAR",
+      "avgPayback": "4.2 months",
+      "goodMorning": "Good Morning",
+      "goodEvening": "Good Evening",
+      "mahamExpo": "Maham Expo",
+      "comma": ",",
+      "investor": "Investor",
+      "occupancy": "{percent}% Occupancy",
+      "boulevardWorld": "Boulevard World — Riyadh Season",
+      "riyadh": "Riyadh",
+      "janJun2026": "January - June 2026",
+      "kafdExhibition": "KAFD Technology Exhibition",
+      "mar2026": "March 2026",
+      "onHisSteps": "On His Steps — Islamic Exhibition",
+      "madinah": "Madinah",
+      "aprMay2026": "April - May 2026"
+    },
+    "liveEconomy": {
+      "revenue": "Revenue",
+      "visitors": "Visitors",
+      "transactions": "Transactions",
+      "occupancy": "Occupancy",
+      "sar": "SAR",
+      "minutes": "minutes",
+      "timeLabels": [
+        "8AM",
+        "9AM",
+        "10AM",
+        "11AM",
+        "12PM",
+        "1PM",
+        "2PM",
+        "3PM",
+        "4PM",
+        "5PM",
+        "6PM",
+        "7PM",
+        "8PM",
+        "9PM",
+        "10PM",
+        "11PM"
+      ],
+      "live": "Live"
+    },
+    "bookings": {
+      "title": "Bookings",
+      "pending": "Pending",
+      "confirmed": "Confirmed",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "approve": "Approve",
+      "reject": "Reject",
+      "comingSoon": "Coming Soon",
+      "pendingReview": "Pending Review",
+      "approved": "Approved",
+      "activity": "Activity: {type}",
+      "notes": "Notes: {text}",
+      "sar": "SAR"
+    },
+    "contracts": {
+      "title": "Contracts",
+      "active": "Active",
+      "pending": "Pending",
+      "expired": "Expired",
+      "terminated": "Terminated",
+      "sar": "SAR",
+      "comingSoon": "Coming Soon",
+      "pendingSignature": "Pending Signature",
+      "activeFilter": "Active",
+      "contractNumber": "Contract #{num}",
+      "signedAt": "Signed: {date}",
+      "sign": "Sign",
+      "all": "All",
+      "pendingSignatureFilter": "Pending Signature",
+      "expiredFilter": "Expired"
+    },
+    "communications": {
+      "title": "Communications Center",
+      "channels": "Channels",
+      "messages": "Messages",
+      "comingSoon": "Coming Soon",
+      "online": "Online",
+      "offline": "Offline",
+      "onlineNow": "Online Now",
+      "lastSeen": "Last Seen"
+    },
+    "documentVault": {
+      "title": "Document Vault",
+      "contracts": "Contracts",
+      "reports": "Reports",
+      "legal": "Legal",
+      "invoices": "Invoices",
+      "plans": "Plans",
+      "comingSoon": "Coming Soon",
+      "encrypted": "Encrypted",
+      "uploadDoc": "Upload Document",
+      "download": "Download",
+      "preview": "Preview"
+    },
+    "portfolio": {
+      "title": "Portfolio",
+      "sar": "SAR",
+      "mSar": "M SAR",
+      "kSar": "K SAR",
+      "active": "Active",
+      "completed": "Completed",
+      "items": [
+        {
+          "name": "Luxury Retail Space — Boulevard World",
+          "exhibition": "Boulevard World — Riyadh Season 2026"
+        },
+        {
+          "name": "Restaurant & Cafe — Food Zone",
+          "exhibition": "KAFD Technology Exhibition 2026"
+        },
+        {
+          "name": "Fashion Pop-up Store",
+          "exhibition": "Boulevard World — Riyadh Season 2026"
+        },
+        {
+          "name": "Tech Pavilion — Previous Exhibition",
+          "exhibition": "GITEX Saudi 2025"
+        }
+      ]
+    },
+    "digitalTwin": {
+      "title": "Digital Twin",
+      "booked": "Booked",
+      "available": "Available",
+      "pending": "Pending",
+      "sqm": "sqm",
+      "area": "Area",
+      "tenant": "Tenant",
+      "monthlyRevenue": "Monthly Revenue",
+      "visitorTraffic": "Visitor Traffic",
+      "sar": "SAR",
+      "perDay": "/ day"
+    },
+    "exhibitionMap": {
+      "title": "Exhibition Map",
+      "commercial": "Commercial",
+      "food": "Food",
+      "services": "Services",
+      "premium": "Premium",
+      "available": "Available",
+      "booked": "Booked",
+      "pending": "Pending",
+      "unit": "Unit",
+      "type": "Type",
+      "area": "Area",
+      "sqm": "sqm",
+      "price": "Price",
+      "sar": "SAR",
+      "location": "Location",
+      "rowCol": "Row {row}, Column {col}",
+      "dimensions": "Dimensions"
+    },
+    "financialCenter": {
+      "title": "Financial Center",
+      "netProfit": "Net Profit",
+      "rentalIncome": "Rental Income",
+      "sar": "SAR",
+      "transactions": [
+        {
+          "desc": "Unit A-01 Revenue — Boulevard World",
+          "date": "March 15, 2026"
+        },
+        {
+          "desc": "Unit B-03 Revenue — Boulevard World",
+          "date": "March 14, 2026"
+        },
+        {
+          "desc": "Maintenance Fees — Zone A",
+          "date": "March 13, 2026"
+        },
+        {
+          "desc": "Unit C-03 Revenue — Maham AI",
+          "date": "March 12, 2026"
+        },
+        {
+          "desc": "Marketing Fees — Ramadan Campaign",
+          "date": "March 11, 2026"
+        },
+        {
+          "desc": "Brokerage Commission — KAFD Exhibition Deal",
+          "date": "March 10, 2026"
+        }
+      ],
+      "exportReport": "Export Report"
+    },
+    "layout": {
+      "platformDescription": "A comprehensive investment platform for managing opportunities in major exhibitions and events",
+      "companyFooter": "Maham Expo for Exhibitions & Conferences — A subsidiary of Maham Services & IT",
+      "arabic": "Arabic",
+      "investor": "Investor",
+      "switchToArabic": "Switch to Arabic",
+      "ar": "AR",
+      "m": "M"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "newBookingRequest": "New Booking Request",
+      "paymentReceived": "Payment Received",
+      "minutesAgo": "{minutes} minutes ago",
+      "hoursAgo": "{hours} hours ago",
+      "daysAgo": "{days} days ago",
+      "unreadCount": "You have {count} unread notifications",
+      "allRead": "All notifications read",
+      "system": "System",
+      "markAllRead": "Mark All Read"
+    },
+    "payments": {
+      "title": "Payments",
+      "received": "Received",
+      "pending": "Pending",
+      "reference": "Ref: {ref}",
+      "bankTransfer": "Bank Transfer",
+      "creditCard": "Credit Card",
+      "cash": "Cash",
+      "mada": "Mada",
+      "sar": "SAR",
+      "merchants": [
+        {
+          "name": "Ahmed Mohammed Al-Otaibi",
+          "company": "Al-Asala Trading Co."
+        },
+        {
+          "name": "Fatima Saad Al-Dosari",
+          "company": "Luxury Flowers Store"
+        },
+        {
+          "name": "Khalid Abdullah Al-Shammari",
+          "company": "Advanced Technology Co."
+        },
+        {
+          "name": "Sarah Yousef Al-Qahtani",
+          "company": "Oriental Perfumes House"
+        },
+        {
+          "name": "Noura Ahmed Al-Harbi",
+          "company": "Modern Fashion House"
+        }
+      ]
+    },
+    "exhibitions": {
+      "title": "Exhibitions",
+      "active": "Active",
+      "upcoming": "Upcoming",
+      "completed": "Completed",
+      "general": "General",
+      "addExhibition": "Add Exhibition",
+      "viewDetails": "View Details",
+      "settings": "Settings"
+    },
+    "investorProfile": {
+      "title": "Investor Profile",
+      "defaultName": "Nour Karam",
+      "cityCountry": "{city}, {country}",
+      "memberSince": "Member since {date}",
+      "save": "Save",
+      "edit": "Edit",
+      "mSar": "M SAR",
+      "verified": "Verified"
+    },
+    "analytics": {
+      "title": "Analytics",
+      "boulevardWorld": "Boulevard World",
+      "onHisSteps": "On His Steps",
+      "kSar": "K SAR",
+      "exhibition": "Exhibition",
+      "revenue": "Revenue",
+      "occupancy": "Occupancy",
+      "rating": "Rating",
+      "units": "Units",
+      "sar": "SAR",
+      "kafdTechnology": "KAFD Technology Exhibition"
+    },
+    "aiAdvisor": {
+      "title": "AI Advisor",
+      "welcomeMessage": "Hello {name}, I'm your AI investment advisor. I analyze your data and portfolio to provide personalized recommendations. How can I help you today?",
+      "lowRisk": "Low",
+      "highRisk": "High",
+      "risk": "Risk: {level}",
+      "recommendations": [
+        {
+          "name": "Tech Partnership — AI Platform",
+          "reasons": [
+            "Fast-growing sector",
+            "Complements your portfolio",
+            "Long-term partnership"
+          ],
+          "risk": "High"
+        },
+        {
+          "name": "Restaurant & Cafe — KAFD",
+          "reasons": [
+            "Stable returns",
+            "High visitor traffic",
+            "Sector diversification"
+          ],
+          "risk": "Low"
+        }
+      ]
+    },
+    "roiCalculator": {
+      "title": "ROI Calculator",
+      "sar": "SAR",
+      "years": "years"
+    }
+  },
+  "marketplace": {
+    "title": "Investment Marketplace",
+    "subtitle": "Discover the best investment opportunities in exhibitions and events",
+    "searchPlaceholder": "Search for an investment opportunity...",
+    "allCategories": "All Categories",
+    "retail": "Retail",
+    "foodAndBeverage": "Food & Beverage",
+    "entertainment": "Entertainment",
+    "technology": "Technology",
+    "services": "Services",
+    "investmentSize": "Investment Size",
+    "expectedReturn": "Expected Return",
+    "duration": "Duration",
+    "location": "Location",
+    "investNow": "Invest Now",
+    "learnMore": "Learn More",
+    "featured": "Featured",
+    "new": "New",
+    "trending": "Trending",
+    "noOpportunities": "No opportunities available at the moment",
+    "card": {
+      "duration": "Duration",
+      "expectedRevenue": "Expected Revenue",
+      "expectedRoi": "Expected ROI",
+      "requiredInvestment": "Required Investment"
+    },
+    "categories": {
+      "brandExperience": "Brand Experience",
+      "eventPartnership": "Event Partnership",
+      "foodAndBeverage": "Food & Beverage",
+      "popupStore": "Pop-up Store",
+      "retail": "Retail",
+      "technology": "Technology"
+    },
+    "demo": {
+      "aiPlatformDescription": "A strategic partnership to launch an integrated artificial intelligence platform serving the exhibition and events sector in the region.",
+      "aiPlatformLocation": "Technology Pavilion — Second Floor",
+      "aiPlatformTitle": "Technology Partnership — AI Platform",
+      "directOperationModel": "Direct operation model with a 70/30 revenue share",
+      "eightMonths": "8 Months",
+      "equityAndDividends": "25% equity stake + quarterly dividends",
+      "fixedMonthlyRent": "Fixed monthly rent",
+      "fourMonths": "4 Months",
+      "kafdExpo": "KAFD Tech & Innovation Expo 2026",
+      "madinah": "Al Madinah",
+      "onHisStepsEvent": "On His Steps 2026",
+      "pavilionDescription": "A huge interactive pavilion in the heart of the Riyadh Season's Grand Arena, designed to offer global brand experiences with augmented reality technologies.",
+      "pavilionLocation": "Central Zone — Grand Arena",
+      "pavilionTitle": "Brand Experience Pavilion",
+      "popupDescription": "Opportunity to launch a temporary pop-up store for luxury fashion and perfumes in the main shopping corridor.",
+      "popupLocation": "Shopping Corridor — Zone B",
+      "popupTitle": "Fashion & Fragrance Pop-up Store",
+      "rentAndSalesShare": "Fixed rent + percentage of sales",
+      "restaurantDescription": "Strategic location in the main food area of the KAFD exhibition, with a continuous flow of visitors from the technology and innovation sector.",
+      "restaurantLocation": "F&B Zone — Ground Floor",
+      "restaurantTitle": "Restaurant & Cafe — Main F&B Zone",
+      "retailDescription": "A prime investment opportunity in the best commercial location within Boulevard World, near the main gate with daily visitor traffic exceeding 45,000. The space is fully equipped and ready for immediate operation.",
+      "retailEvent": "Boulevard World — Riyadh Season 2026",
+      "retailLocation": "Zone A — Main Gate",
+      "retailTitle": "Premium Retail Space — Boulevard World",
+      "riyadh": "Riyadh",
+      "sixMonths": "6 Months",
+      "sponsorshipAndMarketing": "Sponsorship + exclusive marketing rights",
+      "sponsorshipAndTickets": "Sponsorship + entrance tickets + direct sales",
+      "sponsorshipDescription": "Gold sponsorship for the 'On His Steps' religious and cultural event with exclusive branding rights.",
+      "sponsorshipTitle": "Event Partnership — Gold Sponsorship",
+      "threeMonths": "3 Months",
+      "twelveMonths": "12 Months",
+      "twoMonths": "2 Months"
+    },
+    "filters": {
+      "allCategories": "All Categories",
+      "allRisks": "All Risks",
+      "searchPlaceholder": "Search for an opportunity..."
+    },
+    "header": {
+      "altText": "Marketplace",
+      "description": "Discover, analyze, and invest in the best opportunities within major exhibitions and events",
+      "title": "Investment Opportunities Marketplace"
+    },
+    "modal": {
+      "aiAssessment": "AI Opportunity Assessment",
+      "businessModel": "Business Model",
+      "dealRoom": "DEAL ROOM",
+      "expectedRevenue": "Expected Revenue",
+      "operator": "Operator",
+      "opportunityDescription": "Opportunity Description",
+      "requiredInvestment": "Required Investment",
+      "roi": "ROI",
+      "visitorTraffic": "Visitor Traffic"
+    },
+    "risks": {
+      "high": "High",
+      "low": "Low",
+      "medium": "Medium"
+    },
+    "stats": {
+      "availableOpportunities": "Available Opportunities",
+      "averageRoi": "Average ROI",
+      "totalInvestment": "Total Required Investment",
+      "totalVisitors": "Total Expected Visitors"
+    },
+    "toast": {
+      "bookedSuccessfully": "Opportunity booked successfully — you will be contacted soon",
+      "savedToFavorites": "Opportunity saved to favorites"
+    }
+  },
+  "portfolio": {
+    "title": "Investment Portfolio",
+    "subtitle": "Manage and track your active investments",
+    "totalInvested": "Total Invested",
+    "totalReturns": "Total Returns",
+    "activeInvestments": "Active Investments",
+    "averageROI": "Average ROI",
+    "investmentName": "Investment Name",
+    "investedAmount": "Invested Amount",
+    "currentValue": "Current Value",
+    "returnRate": "Return Rate",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "performance": "Performance",
+    "noInvestments": "No active investments",
+    "category": {
+      "brand_experience": "Brand Experience",
+      "event_partnership": "Partnership",
+      "food_beverage": "Food & Beverage",
+      "popup": "Pop-up Store",
+      "retail": "Retail",
+      "technology": "Technology"
+    },
+    "filter": {
+      "active": "Active",
+      "all": "All",
+      "completed": "Completed"
+    },
+    "header": {
+      "description": "Track and manage all your active and completed investments",
+      "title": "My Investment Portfolio",
+      "totalValue": "Total Value"
+    },
+    "item": {
+      "currentValue": "Current Value",
+      "investedAmount": "Invested Amount",
+      "monthlyRevenue": "Monthly Revenue",
+      "period": "Period",
+      "progress": "Investment Progress"
+    },
+    "misc": {
+      "currency": "SAR",
+      "currencyPerMonth": "SAR / month"
+    },
+    "stats": {
+      "currentValue": "Current Value",
+      "monthlyRevenue": "Monthly Revenue",
+      "totalInvested": "Total Invested",
+      "totalReturn": "Total Return"
+    }
+  },
+  "exhibitions": {
+    "title": "Exhibitions",
+    "subtitle": "Browse available exhibitions and events",
+    "upcoming": "Upcoming",
+    "ongoing": "Ongoing",
+    "past": "Past",
+    "exhibitionName": "Exhibition Name",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "venue": "Venue",
+    "totalUnits": "Total Units",
+    "availableUnits": "Available Units",
+    "occupancyRate": "Occupancy Rate",
+    "bookUnit": "Book Unit",
+    "viewMap": "View Map",
+    "noExhibitions": "No exhibitions available",
+    "card": {
+      "occupancy": "Occupancy",
+      "revenue": "Revenue",
+      "units": "Units"
+    },
+    "demo": {
+      "boulevardWorld": {
+        "city": "Riyadh",
+        "description": "A commercial event within Riyadh Season",
+        "location": "Boulevard World",
+        "name": "Boulevard World - Riyadh Season 2026",
+        "sector": "Entertainment & Retail"
+      },
+      "jeddahFood": {
+        "city": "Jeddah",
+        "description": "An exhibition specializing in food and beverages",
+        "location": "Exhibition Center",
+        "name": "Jeddah Food & Beverage Exhibition",
+        "sector": "Food & Beverage"
+      },
+      "kafdTech": {
+        "city": "Riyadh",
+        "description": "A technical exhibition specializing in innovation and modern technology",
+        "location": "King Abdullah Financial District",
+        "name": "KAFD Tech & Innovation Expo 2026",
+        "sector": "Technology"
+      },
+      "onHisSteps": {
+        "city": "Al Madinah",
+        "description": "A cultural and commercial Islamic exhibition",
+        "location": "Al Madinah",
+        "name": "On His Steps - The Islamic Exhibition",
+        "sector": "Cultural & Religious"
+      }
+    },
+    "filters": {
+      "active": "Active",
+      "all": "All",
+      "completed": "Completed",
+      "upcoming": "Upcoming"
+    },
+    "header": {
+      "addNewToast": "Add New Exhibition - Coming Soon",
+      "description": "Manage and follow up on all your exhibitions and events",
+      "imageAlt": "Exhibitions",
+      "title": "Exhibitions Management"
+    },
+    "stats": {
+      "bookedUnits": "Booked Units",
+      "occupancyRate": "Occupancy Rate",
+      "totalExhibitions": "Total Exhibitions",
+      "totalRevenue": "Total Revenue"
+    }
+  },
+  "dealRoom": {
+    "title": "Deal Room",
+    "subtitle": "Manage and track your investment deals",
+    "activeDeal": "Active Deal",
+    "dealValue": "Deal Value",
+    "dealStatus": "Deal Status",
+    "negotiation": "Negotiation",
+    "dueDiligence": "Due Diligence",
+    "closing": "Closing",
+    "closed": "Closed",
+    "documents": "Documents",
+    "timeline": "Timeline",
+    "parties": "Parties",
+    "noDeals": "No active deals",
+    "advancedTechnologyCompany": "Advanced Technology Company",
+    "alRiyadaTradingCompany": "Al Riyada Trading Company",
+    "approved": "Approved",
+    "commercialLease": "Commercial Lease",
+    "dealRooms": "Deal Rooms",
+    "directPurchase": "Direct Purchase",
+    "exclusiveSponsorship": "Exclusive Sponsorship",
+    "exclusiveSponsorshipDescription": "Exclusive sponsorship for the VIP area at Riyadh Season with full marketing rights",
+    "investmentPartnership": "Investment Partnership",
+    "investmentPartnershipDescription": "Investment partnership to develop and operate 5 commercial units in Zone A",
+    "jointInvestmentBoulevard": "Joint Investment - Boulevard World Zone A",
+    "jointVenture": "Joint Venture",
+    "jointVentureDescription": "Joint venture to develop a tech platform for AI-powered exhibition management",
+    "jointVentureTechPlatform": "Joint Venture - Tech Platform",
+    "lastWeek": "Last week",
+    "longTermLeaseKAFD": "Long-Term Lease - KAFD Exhibition",
+    "luxuryGroup": "Luxury Group",
+    "madinah": "Madinah",
+    "mahamAICompany": "Maham AI Company",
+    "manageDeals": "Manage and track all investment deals and negotiations",
+    "onHisStepsFoundation": "On His Steps Foundation",
+    "rejected": "Rejected",
+    "riyadh": "Riyadh",
+    "riyadhKAFD": "Riyadh - KAFD",
+    "signed": "Signed",
+    "sinceFourHours": "4 hours ago",
+    "sinceTwoHours": "2 hours ago",
+    "sponsorshipDealRiyadhSeason": "Sponsorship Deal - Riyadh Season 2026",
+    "today": "Today",
+    "twelveMonthLeaseDescription": "12-month lease for an integrated technology space",
+    "unitPurchaseOnHisSteps": "Unit Purchase - On His Steps 2026",
+    "unitPurchaseOnHisStepsDescription": "Purchase of 3 commercial units at the On His Steps exhibition",
+    "yesterday": "Yesterday"
+  },
+  "bookings": {
+    "title": "Bookings",
+    "subtitle": "Manage and track your unit booking requests",
+    "bookingId": "Booking ID",
+    "unitName": "Unit Name",
+    "exhibitionName": "Exhibition Name",
+    "bookingDate": "Booking Date",
+    "bookingStatus": "Booking Status",
+    "totalPrice": "Total Price",
+    "newBooking": "New Booking",
+    "cancelBooking": "Cancel Booking",
+    "noBookings": "No booking requests",
+    "filterAll": "All",
+    "headerAlt": "Booking Requests",
+    "headerDescription": "Review and manage merchant booking requests",
+    "headerTitle": "Booking Requests",
+    "searchPlaceholder": "Search by merchant or company name...",
+    "statsApproved": "Approved",
+    "statsPending": "Pending",
+    "statsRejected": "Rejected",
+    "statsTotal": "Total Requests",
+    "statusApproved": "Approved",
+    "statusPending": "Pending",
+    "statusRejected": "Rejected",
+    "statusUpdateSuccess": "Booking status updated successfully"
+  },
+  "contracts": {
+    "title": "Contracts",
+    "subtitle": "Manage and track your investment contracts",
+    "contractId": "Contract ID",
+    "contractType": "Contract Type",
+    "contractValue": "Contract Value",
+    "signDate": "Sign Date",
+    "expiryDate": "Expiry Date",
+    "contractStatus": "Contract Status",
+    "signed": "Signed",
+    "draft": "Draft",
+    "signContract": "Sign Contract",
+    "downloadContract": "Download Contract",
+    "noContracts": "No contracts",
+    "filters": {
+      "all": "All"
+    },
+    "header": {
+      "description": "Track contracts and electronic signatures",
+      "imageAlt": "Contract Management",
+      "title": "Contract Management"
+    },
+    "stats": {
+      "activeContracts": "Active Contracts",
+      "contractsValue": "Contracts Value",
+      "pendingContracts": "Pending Signature",
+      "totalContracts": "Total Contracts"
+    },
+    "status": {
+      "expired": "Expired",
+      "pendingSignature": "Pending Signature"
+    },
+    "toast": {
+      "signedSuccess": "Contract signed successfully"
+    }
+  },
+  "payments": {
+    "title": "Payments",
+    "subtitle": "Manage and track payments and financial transactions",
+    "paymentId": "Transaction ID",
+    "paymentDate": "Payment Date",
+    "paymentMethod": "Payment Method",
+    "paymentStatus": "Payment Status",
+    "paid": "Paid",
+    "unpaid": "Unpaid",
+    "overdue": "Overdue",
+    "refunded": "Refunded",
+    "bankTransfer": "Bank Transfer",
+    "creditCard": "Credit Card",
+    "cash": "Cash",
+    "makePayment": "Make Payment",
+    "noPayments": "No financial transactions",
+    "currency": "SAR",
+    "filter": {
+      "all": "All",
+      "pending": "Pending",
+      "received": "Received"
+    },
+    "imageAlt": "Payments",
+    "pending": "Pending",
+    "received": "Received",
+    "total": "Total",
+    "totalTransactions": "Total Transactions"
+  },
+  "analytics": {
+    "title": "Analytics",
+    "subtitle": "Advanced analytics for your investment performance",
+    "overview": "Overview",
+    "revenue": "Revenue",
+    "expenses": "Expenses",
+    "profit": "Profit",
+    "growth": "Growth",
+    "monthlyRevenue": "Monthly Revenue",
+    "yearlyRevenue": "Yearly Revenue",
+    "revenueByCategory": "Revenue by Category",
+    "topPerformers": "Top Performers",
+    "trends": "Trends",
+    "charts": {
+      "expenses": "Expenses",
+      "monthlyRevenueAndExpenses": "Monthly Revenue and Expenses",
+      "occupancy": "Occupancy",
+      "occupancyByExhibition": "Occupancy Rates by Exhibition",
+      "revenue": "Revenue",
+      "sectorDistribution": "Sector Distribution"
+    },
+    "exhibitions": {
+      "boulevardWorld": "Boulevard World",
+      "jeddahExhibition": "Jeddah Exhibition",
+      "kafdExhibition": "KAFD Exhibition",
+      "kafdTechnology": "KAFD Technology",
+      "onHisSteps": "On His Steps"
+    },
+    "header": {
+      "description": "Comprehensive analytics for investment and exhibition performance",
+      "title": "Analytics"
+    },
+    "kpis": {
+      "merchantsCount": "Merchants Count",
+      "netProfit": "Net Profit",
+      "occupancyRate": "Occupancy Rate",
+      "totalRevenue": "Total Revenue"
+    },
+    "months": {
+      "april": "April",
+      "february": "February",
+      "january": "January",
+      "june": "June",
+      "march": "March",
+      "may": "May"
+    },
+    "sectors": {
+      "fashion": "Fashion",
+      "food": "Food",
+      "other": "Other",
+      "retail": "Retail",
+      "technology": "Technology"
+    },
+    "tables": {
+      "exhibitionPerformance": "Exhibition Performance"
+    }
+  },
+  "digitalTwin": {
+    "title": "Digital Twin",
+    "subtitle": "Interactive 3D map of exhibitions",
+    "heatmap": "Heatmap",
+    "visitorFlow": "Visitor Flow",
+    "zoneAnalysis": "Zone Analysis",
+    "realTimeData": "Real-time Data",
+    "advancedTechnology": "Advanced Technology Company",
+    "alAsalaTrading": "Al Asala Trading Company",
+    "alNokhbaMarketing": "Al Nokhba Marketing Company",
+    "alRiyadaTrading": "Al Riyada Trading Company",
+    "available": "Available",
+    "booked": "Booked",
+    "details": {
+      "clickToView": "Click on any unit to view details"
+    },
+    "gourmetGroup": "The Gourmet Group",
+    "header": {
+      "description": "Interactive map for unit distribution and live analytics",
+      "title": "Digital Twin — Boulevard World"
+    },
+    "luxuryFlowers": "Luxury Flowers Shop",
+    "luxuryGroup": "The Luxury Group",
+    "mahamAI": "Maham AI Company",
+    "map": {
+      "mainEntrance": "Main Entrance",
+      "title": "Exhibition Layout"
+    },
+    "modernFashionHouse": "Modern Fashion House",
+    "onHisSteps": "On His Steps Foundation",
+    "orientalPerfumes": "Oriental Perfumes House",
+    "pending": "Pending",
+    "saudiCreativityAgency": "Saudi Creativity Agency",
+    "stats": {
+      "occupancyRate": "Occupancy Rate",
+      "totalUnits": "Total Units",
+      "visitorsPerDay": "Visitors / Day"
+    },
+    "unitA01": "Unit A-01",
+    "unitA02": "Unit A-02",
+    "unitA03": "Unit A-03",
+    "unitA04": "Unit A-04",
+    "unitA05": "Unit A-05",
+    "unitB01": "Unit B-01",
+    "unitB02": "Unit B-02",
+    "unitB03": "Unit B-03",
+    "unitB04": "Unit B-04",
+    "unitC01": "Unit C-01",
+    "unitC02": "Unit C-02",
+    "unitC03": "Unit C-03",
+    "unitC04": "Unit C-04",
+    "unitD01": "Unit D-01",
+    "unitD02": "Unit D-02",
+    "unitD03": "Unit D-03",
+    "viewToggle": {
+      "heatmap": "Heatmap",
+      "unitsMap": "Units Map"
+    }
+  },
+  "liveEconomy": {
+    "title": "Live Economy",
+    "subtitle": "Real-time economic indicators for the exhibitions and events sector",
+    "marketIndex": "Market Index",
+    "tradingVolume": "Trading Volume",
+    "activeTraders": "Active Traders",
+    "marketCap": "Market Cap",
+    "averageBasket": "Average Basket",
+    "averageDwellTime": "Average Dwell Time",
+    "boulevardWorld": "Boulevard World",
+    "conversionRate": "Conversion Rate",
+    "currentVisitors": "Current Visitors",
+    "entertainment": "Entertainment",
+    "eventPerformance": "Event Performance",
+    "foodAndBeverage": "Food & Beverage",
+    "kafdTechExpo": "KAFD Tech Expo",
+    "lastUpdatedNow": "Last updated: Now",
+    "liveAnalytics": "Live analytics for all events and exhibitions performance",
+    "liveEconomyAlt": "Live Economy",
+    "liveEconomyDashboard": "Live Economy Dashboard",
+    "liveRevenue": "Live Revenue",
+    "onHisSteps2026": "On His Steps 2026",
+    "retail": "Retail",
+    "revenue": "Revenue",
+    "riyadhSeason2026": "Riyadh Season 2026",
+    "sectorDistribution": "Sector Distribution",
+    "services": "Services",
+    "technology": "Technology",
+    "totalSar": "Total SAR",
+    "transactionsPerHour": "Transactions / hour",
+    "visitorAndRevenueMovement": "Visitor and Revenue Movement — Today",
+    "visitors": "Visitors"
+  },
+  "investorLogin": {
+    "title": "Login",
+    "subtitle": "Enter your phone number to receive a verification code",
+    "phonePlaceholder": "5XXXXXXXX",
+    "sendOTP": "Send Verification Code",
+    "demoAccess": "Demo Access (No OTP)",
+    "backToHome": "Back to Home",
+    "otpTitle": "Verification Code",
+    "otpSubtitle": "Enter the code sent to",
+    "verify": "Verify",
+    "resendOTP": "Resend Code",
+    "resendIn": "Resend in",
+    "seconds": "seconds",
+    "changeNumber": "Change Number",
+    "registerTitle": "Complete Your Investor Profile",
+    "registerSubtitle": "Basic information to personalize your experience",
+    "fullName": "Full Name",
+    "fullNamePlaceholder": "Enter your full name",
+    "investmentInterest": "Investment Interest",
+    "selectInterest": "Select interest type",
+    "regionOptional": "Region (Optional)",
+    "selectRegion": "Select region",
+    "enterPlatform": "Enter Platform",
+    "interests": {
+      "exhibitions": "Exhibitions & Events",
+      "retail": "Retail & Shops",
+      "foodBeverage": "Food & Beverage",
+      "entertainment": "Entertainment & Leisure",
+      "technology": "Technology & Innovation",
+      "realEstate": "Real Estate & Spaces",
+      "general": "General Investment"
+    },
+    "regions": {
+      "riyadh": "Riyadh",
+      "makkah": "Makkah",
+      "madinah": "Madinah",
+      "eastern": "Eastern Province",
+      "qassim": "Qassim",
+      "hail": "Hail",
+      "tabuk": "Tabuk",
+      "northern": "Northern Borders",
+      "jazan": "Jazan",
+      "najran": "Najran",
+      "baha": "Al Baha",
+      "jawf": "Al Jawf",
+      "asir": "Asir"
+    }
+  },
+  "landing": {
+    "heroTag": "The First Investment Platform for Event Projects in the Kingdom",
+    "heroTitleLine1": "Manage Major Event",
+    "heroTitleHighlight": "Projects",
+    "heroTitleLine2": "From One Platform",
+    "heroSubtitle": "A comprehensive platform for investors and major project operators — from Boulevard World to international exhibitions. Divide spaces, lease units to merchants, and track your returns in real-time.",
+    "heroDescription": "Whether you're a government operating company or a private investment group — the Investor Portal gives you complete control.",
+    "enterPlatform": "Dashboard",
+    "enterPlatformGuest": "Enter Platform",
+    "discoverPlatform": "Discover the Platform",
+    "switchLanguage": "العربية",
+    "projectVolume": "SAR Project Volume",
+    "activeProjects": "Active Event Projects",
+    "commercialUnits": "Leased Commercial Units",
+    "luxuryEventAlt": "Luxury Event",
+    "occupancyRate": "Occupancy Rate",
+    "activeTraders": "Active Traders",
+    "who": {
+      "sectionTitle": "Who Is It For?",
+      "title": "Designed for Decision Makers in",
+      "titleHighlight": "Major Projects",
+      "description": "The Investor Portal is specifically designed for entities that manage and operate large-scale events, exhibitions, and conferences in the Kingdom.",
+      "audiences": [
+        {
+          "title": "Major Operating Companies",
+          "desc": "Companies like Sela and others manage massive projects like Boulevard World and need advanced tools for space and unit management.",
+          "tag": "Boulevard World — Riyadh Season"
+        },
+        {
+          "title": "Government Entities & Authorities",
+          "desc": "Entertainment and tourism authorities and regional municipalities overseeing national event projects requiring full transparency.",
+          "tag": "Entertainment Authority — National Exhibitions"
+        },
+        {
+          "title": "International Investment Groups",
+          "desc": "International companies managing projects in the Kingdom that need a unified platform to manage multiple projects from one place.",
+          "tag": "KAFD Events — International Exhibitions"
+        },
+        {
+          "title": "Sub-Investors",
+          "desc": "Investors who take over sections of major projects, manage them, and lease their units directly to merchants.",
+          "tag": "F&B Zone Operator in a Seasonal Event"
+        }
+      ]
+    },
+    "why": {
+      "sectionTitle": "Why This Platform?",
+      "title": "Everything You Need to Manage",
+      "titleHighlight": "Event Projects",
+      "values": [
+        {
+          "title": "Smart Space Division",
+          "desc": "Divide your project into commercial units (kiosks, shops, pavilions, F&B zones) with full flexibility and digital management."
+        },
+        {
+          "title": "Maximize Rental Returns",
+          "desc": "Smart pricing tools and AI analytics help you achieve the highest return per square meter."
+        },
+        {
+          "title": "Merchant & Tenant Management",
+          "desc": "Receive merchant applications, manage contracts, and track payments from one place."
+        },
+        {
+          "title": "Sub-Investor Delegation",
+          "desc": "Hand over sections of your project to sub-investors and monitor their performance from a unified dashboard."
+        },
+        {
+          "title": "Predictive AI",
+          "desc": "Occupancy forecasts, performance analysis, and pricing suggestions based on real data."
+        },
+        {
+          "title": "Enterprise Security & Transparency",
+          "desc": "Detailed financial reports, complete audit trail, and compliance with ZATCA and SAMA."
+        }
+      ]
+    },
+    "how": {
+      "sectionTitle": "How It Works",
+      "title": "From Project Handover to",
+      "titleHighlight": "Achieving Returns",
+      "spaceManagementAlt": "Space Management",
+      "steps": [
+        {
+          "num": "01",
+          "title": "Receive Your Project",
+          "desc": "Register your event or exhibition project. Define the total area, location, and operating period."
+        },
+        {
+          "num": "02",
+          "title": "Divide Spaces into Units",
+          "desc": "Use the smart division tool to convert space into categorized units (Retail, F&B, VIP)."
+        },
+        {
+          "num": "03",
+          "title": "Lease to Merchants or Delegate",
+          "desc": "List units in the rental marketplace, receive merchant applications, or hand over to sub-investors."
+        },
+        {
+          "num": "04",
+          "title": "Track Returns in Real-Time",
+          "desc": "Smart dashboard showing occupancy, revenue, and detailed financial reports."
+        }
+      ]
+    },
+    "stats": {
+      "sectionTitle": "By the Numbers",
+      "title": "Numbers That Speak About",
+      "titleHighlight": "Platform Scale",
+      "items": [
+        {
+          "label": "SAR Project Volume"
+        },
+        {
+          "label": "Active Event Projects"
+        },
+        {
+          "label": "Leased Commercial Units"
+        },
+        {
+          "label": "Registered Merchants"
+        },
+        {
+          "label": "Unit Occupancy Rate"
+        },
+        {
+          "label": "Platform Uptime"
+        }
+      ]
+    },
+    "features": {
+      "sectionTitle": "Platform Capabilities",
+      "title": "Professional",
+      "titleHighlight": "Tools",
+      "titleSuffix": "for Event Project Management",
+      "items": [
+        {
+          "title": "Interactive Digital Map",
+          "desc": "3D Digital Twin of your project. View every unit and occupancy status in real-time."
+        },
+        {
+          "title": "Space & Unit Marketplace",
+          "desc": "List your available units for lease. Merchants browse and submit booking requests directly."
+        },
+        {
+          "title": "Electronic Lease Contracts",
+          "desc": "Create digital contracts, sign them electronically, and track each contract's status."
+        },
+        {
+          "title": "Advanced Financial Reports",
+          "desc": "Revenue, expenses, and net profit. Reports compliant with ZATCA."
+        },
+        {
+          "title": "AI Investment Advisor",
+          "desc": "Smart algorithms analyze your project performance and suggest improvements."
+        },
+        {
+          "title": "Continuous Enterprise Support",
+          "desc": "Dedicated support team and personal account manager available 24/7."
+        }
+      ]
+    },
+    "testimonials": {
+      "sectionTitle": "Investor Testimonials",
+      "title": "What Our",
+      "titleHighlight": "Partners",
+      "titleSuffix": "Say About the Platform",
+      "items": [
+        {
+          "name": "Eng. Abdulrahman Al-Shammari",
+          "role": "Operations Director — Major Investment Group",
+          "text": "We manage 8 event projects across 3 Saudi cities. Before the platform, coordination was a nightmare. Now everything is in one place.",
+          "initials": "A.S"
+        },
+        {
+          "name": "Ms. Sarah Al-Qahtani",
+          "role": "Investment Director — Event Operations Company",
+          "text": "The platform transformed how we work. Predictive analytics helped us increase occupancy from 78% to 96% in one season.",
+          "initials": "S.Q"
+        },
+        {
+          "name": "Dr. Fahad Al-Mutairi",
+          "role": "CEO — International Exhibition Company",
+          "text": "As an international company in the Saudi market, Maham Expo provided everything — from electronic contracts to ZATCA compliance.",
+          "initials": "F.M"
+        }
+      ]
+    },
+    "faq": {
+      "sectionTitle": "FAQ",
+      "title": "Investor",
+      "titleHighlight": "Questions",
+      "items": [
+        {
+          "q": "What types of projects can be managed through the platform?",
+          "a": "The platform is designed to manage any event, exhibition, or conference project that includes leasable commercial spaces. Whether it's a seasonal project like Boulevard World, an international trade exhibition, or a government event — the platform supports all types."
+        },
+        {
+          "q": "How does the space division system work?",
+          "a": "You register the total area of your project, then use the smart division tool to convert it into categorized units. Each unit has its own area, price, and status. You can modify the division at any time."
+        },
+        {
+          "q": "Can I delegate sections of my project to sub-investors?",
+          "a": "Yes. You can hand over complete sections of your project to sub-investors who manage them independently. You'll track their performance and returns from your dashboard."
+        },
+        {
+          "q": "What is the level of security and regulatory compliance?",
+          "a": "The platform complies with ZATCA, SAMA, and IFRS standards. All data is encrypted, with a complete audit trail for every operation."
+        },
+        {
+          "q": "How are lease contracts handled?",
+          "a": "The platform provides a complete electronic lease contract system. You create the contract, the merchant signs it electronically, and you track its status from start to expiration."
+        },
+        {
+          "q": "Is the platform suitable for government entities?",
+          "a": "Absolutely. The platform is designed to meet government entity requirements in terms of transparency, detailed reporting, and regulatory compliance."
+        }
+      ]
+    },
+    "cta": {
+      "sectionTitle": "Get Started",
+      "title": "Ready to Manage Your Projects",
+      "titleHighlight": "Smartly?",
+      "description": "Join investors and project operators who manage their events and exhibitions through the Maham Expo platform.",
+      "enterPlatformNow": "Enter Platform Now"
+    },
+    "footer": {
+      "companyDescription": "Maham Expo for Exhibitions & Conferences — A subsidiary of Maham Services & IT",
+      "quickLinks": "Quick Links",
+      "aboutUs": "About Us",
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms & Conditions",
+      "usageAgreement": "Usage Agreement",
+      "contact": "Contact Us",
+      "allRightsReserved": "All Rights Reserved",
+      "companyName": "Maham Services & IT"
+    }
+  },
+  "validation": {
+    "required": "This field is required",
+    "invalidPhone": "Invalid phone number",
+    "invalidEmail": "Invalid email address",
+    "invalidOTP": "Invalid verification code",
+    "otpExpired": "Verification code has expired",
+    "minLength": "Must be at least {min} characters",
+    "maxLength": "Must not exceed {max} characters",
+    "selectOption": "Please select an option"
+  },
+  "errors": {
+    "general": "An unexpected error occurred",
+    "network": "Network connection error",
+    "unauthorized": "You are not authorized to access this",
+    "forbidden": "Access denied",
+    "notFound": "Page not found",
+    "serverError": "Server error",
+    "timeout": "Connection timed out",
+    "otpSendFailed": "Failed to send verification code",
+    "otpVerifyFailed": "Failed to verify code",
+    "registrationFailed": "Registration failed"
+  },
+  "aiAdvisor": {
+    "aiResponse": "Based on the analysis of your current portfolio and market conditions, I recommend investing in the luxury retail space at Boulevard World. The strategic location receives 45,000 visitors daily with an expected ROI of 68%.",
+    "chat": {
+      "placeholder": "Ask the AI Advisor..."
+    },
+    "description": "Smart analytics and personalized recommendations based on your portfolio data and market conditions",
+    "headerImageAlt": "AI Advisor",
+    "match": "Match",
+    "matchingEngine": {
+      "description": "Analyzes your investment profile and current portfolio to suggest the best matching opportunities",
+      "title": "Smart Matching Engine"
+    },
+    "tabs": {
+      "aiChat": "AI Chat",
+      "insights": "Smart Insights",
+      "matchingEngine": "Matching Engine"
+    },
+    "title": "Smart Investment Advisor"
+  },
+  "aiInsights": {
+    "category": {
+      "alert": "Alert",
+      "analysis": "Analysis",
+      "opportunity": "Opportunity",
+      "strategy": "Strategy"
+    },
+    "diversificationRecommendation": {
+      "description": "Your portfolio is 65% concentrated in the retail sector. It is recommended to diversify investments in the technology and entertainment sectors.",
+      "title": "Diversification Recommendation"
+    },
+    "highValueOpportunity": {
+      "description": "Boulevard World — Zone A shows a 23% growth in visitor traffic. It is recommended to increase investment in retail units.",
+      "title": "High Value Opportunity"
+    },
+    "outstandingPerformance": {
+      "description": "Unit C-03 (Maham AI) achieves the highest ROI at 40%. It is recommended to study the business model.",
+      "title": "Outstanding Performance"
+    },
+    "riskAlert": {
+      "description": "The food sector at the KAFD exhibition shows a slight decline in the conversion rate. It is recommended to review the pricing strategy.",
+      "title": "Risk Alert"
+    }
+  },
+  "communications": {
+    "advancedTechnologyCompany": "Advanced Technology Company",
+    "alRiyadaTradingCompany": "Al-Riyada Trading Company",
+    "awaitingBookingApproval": "Awaiting approval for the booking request",
+    "bookingRequestUnitA04": "Booking Request — Unit A-04",
+    "boulevardWorldManagement": "Boulevard World Management",
+    "communicationsHub": "Communications Hub",
+    "consultant": "Consultant",
+    "contractReviewed": "The contract has been reviewed and feedback sent",
+    "directCommunication": "Direct communication with tenants, partners, and the management team",
+    "exhibitionOrganizer": "Exhibition Organizer",
+    "kafdExhibitionManagement": "KAFD Exhibition Management",
+    "legalCounsel": "Legal Counsel",
+    "mahamAITeam": "Maham AI Team",
+    "monthlyReportReady": "The monthly report is ready for review",
+    "nextMeetingTuesday": "Next meeting is on Tuesday",
+    "operationsManager": "Operations Manager",
+    "renewContract6Months": "We would like to renew the contract for an additional 6 months",
+    "saturday": "Saturday",
+    "searchConversations": "Search in conversations...",
+    "sunday": "Sunday",
+    "technicalPartner": "Technical Partner",
+    "tenantUnitB03": "Tenant — Unit B-03",
+    "writeYourMessage": "Write your message...",
+    "yesterday": "Yesterday",
+    "zoneAMapUpdatedSuccessfully": "Zone A map updated successfully"
+  },
+  "documentVault": {
+    "all": "All",
+    "approved": "Approved",
+    "blueprints": "Blueprints",
+    "commercialRegistration": "Commercial Registration Certificate",
+    "contracts": "Contracts",
+    "description": "Securely store and manage all documents and contracts in an encrypted manner",
+    "documentVault": "Document Vault",
+    "downloadComingSoon": "Download Document — Coming Soon",
+    "exhibitionBlueprint": "Exhibition Blueprint — Zone A",
+    "final": "Final",
+    "investmentContract": "Investment Contract — Boulevard World",
+    "invoices": "Invoices",
+    "legal": "Legal",
+    "municipalLicense": "Municipal License — Site B",
+    "paid": "Paid",
+    "partnershipAgreement": "Partnership Agreement — Maham AI",
+    "pending": "Pending",
+    "performanceReportQ1": "Q1 2026 Performance Report",
+    "previewComingSoon": "Preview Document — Coming Soon",
+    "rentInvoice": "Rent Invoice — Unit A-01",
+    "reports": "Reports",
+    "riskAnalysisReport": "Risk Analysis Report",
+    "searchPlaceholder": "Search in documents...",
+    "signed": "Signed",
+    "signedDocuments": "Signed Documents",
+    "storageStats": "Storage Statistics",
+    "theBlueprints": "Blueprints",
+    "theContracts": "Contracts",
+    "theInvoices": "Invoices",
+    "theLegal": "Legal",
+    "theReports": "Reports",
+    "title": "Document Vault",
+    "totalDocuments": "Total Documents",
+    "uploadComingSoon": "Upload Documents — Coming Soon",
+    "usedSpace": "Used Space",
+    "verified": "Verified",
+    "waitingForSignature": "Waiting for Signature"
+  },
+  "exhibitionMap": {
+    "details": {
+      "placeholder": "Click on any unit to view its details"
+    },
+    "grid": {
+      "title": "KAFD Tech & Innovation Expo 2026"
+    },
+    "header": {
+      "description": "View unit distribution and booking statuses",
+      "imageAlt": "Exhibition Map",
+      "title": "Exhibition Map"
+    },
+    "summary": {
+      "occupancyRate": "Occupancy Rate",
+      "title": "Exhibition Summary",
+      "totalUnits": "Total Units"
+    }
+  },
+  "financialCenter": {
+    "cashFlow": "Cash Flow",
+    "currency": "SAR",
+    "expenses": "Expenses",
+    "latestTransactions": "Latest Financial Transactions",
+    "monthlyRevenueAndExpenses": "Monthly Revenue and Expenses",
+    "netProfit": "Net Profit",
+    "returnOnInvestment": "Return on Investment",
+    "revenue": "Revenue",
+    "subtitle": "Comprehensive financial analysis and cash flow tracking",
+    "title": "Financial Center",
+    "totalAssets": "Total Assets",
+    "transactionCategory": {
+      "commissions": "Commissions",
+      "maintenance": "Maintenance",
+      "marketing": "Marketing",
+      "rentalRevenue": "Rental Revenue"
+    }
+  },
+  "investorProfile": {
+    "achievementsAndBadges": "Achievements and Badges",
+    "activeInvestments": "Active Investments",
+    "bio": "Strategic investor specializing in the technology and commercial real estate sectors with over 10 years of experience in investment portfolio and trade fair management.",
+    "changesSaved": "Changes saved",
+    "city": "Riyadh",
+    "cityLabel": "City",
+    "companyInfo": "Company Information",
+    "companyName": "Maham Investment Group",
+    "companyNameEnLabel": "Name in English",
+    "companyNameLabel": "Company Name",
+    "contactInfo": "Contact Information",
+    "country": "Saudi Arabia",
+    "countryLabel": "Country",
+    "diversifiedPortfolio": "Diversified Portfolio",
+    "diversifiedPortfolioDesc": "Invested in 3+ different sectors",
+    "emailLabel": "Email",
+    "expoPioneer": "Expo Pioneer",
+    "expoPioneerDesc": "Participated in 5+ exhibitions",
+    "investorType": "Institutional",
+    "investorTypeLabel": "Investor Type",
+    "outstandingReturn": "Outstanding Return",
+    "outstandingReturnDesc": "Achieved ROI higher than 30%",
+    "phoneLabel": "Phone Number",
+    "platinumInvestor": "Platinum Investor",
+    "platinumInvestorDesc": "Investment volume exceeded 10M SAR",
+    "registrationNumberLabel": "Commercial Registration",
+    "sector": "IT and Real Estate",
+    "sectorLabel": "Sector",
+    "taxNumberLabel": "Tax Number",
+    "totalInvested": "Total Invested",
+    "totalInvestments": "Total Investments",
+    "totalReturns": "Total Returns",
+    "verifiedInvestor": "Verified Investor",
+    "verifiedInvestorDesc": "Completed identity and commercial registration verification",
+    "websiteLabel": "Website"
+  },
+  "landingPage": {
+    "footer": {
+      "contact": "Contact Us"
+    },
+    "how": {
+      "sectionTitle": "How does the platform work?",
+      "titleHighlight": "reaping profits"
+    },
+    "nav": {
+      "faq": "FAQ",
+      "howItWorks": "How it works",
+      "platform": "Platform",
+      "whyMahamExpo": "Why Maham Expo"
+    },
+    "who": {
+      "sectionTitle": "Who is this platform for?",
+      "titleHighlight": "Major Projects"
+    },
+    "why": {
+      "sectionTitle": "Why Maham Expo?",
+      "titleHighlight": "your investment project"
+    }
+  },
+  "matchingResults": {
+    "luxuryRetail": {
+      "opportunity": "Luxury Retail Space — Boulevard World"
+    },
+    "reason": {
+      "highRoi": "Expected ROI above average",
+      "matchesHistory": "Matches your investment history",
+      "provenLocation": "Proven strategic location"
+    },
+    "risk": {
+      "low": "Low"
+    }
+  },
+  "months": {
+    "april": "April",
+    "august": "August",
+    "december": "December",
+    "february": "February",
+    "january": "January",
+    "july": "July",
+    "june": "June",
+    "march": "March",
+    "may": "May",
+    "november": "November",
+    "october": "October",
+    "september": "September"
+  },
+  "notifications": {
+    "allNotificationsMarkedAsRead": "All notifications marked as read",
+    "booking": "Booking",
+    "bookingRequestDetails": "Ahmed Al-Otaibi from Al-Asala Company has requested to book unit A-12 at the KAFD Tech Expo",
+    "bookingRequestDetailsNoura": "Noura Al-Harbi from Modern Fashion House has requested to book unit C-15 at Boulevard World",
+    "bookingRequestRejected": "Booking Request Rejected",
+    "bookingRequestRejectedDetails": "Mohammed Al-Ghamdi's booking request has been rejected — does not match the expo type",
+    "contract": "Contract",
+    "contractPendingSignature": "Contract Awaiting Signature",
+    "contractReadyForSignature": "Contract #2026-044 with Advanced Technology Company is ready for electronic signature",
+    "contractSigned": "Contract Signed",
+    "contractSignedSuccessfully": "Contract #2026-042 with Al-Asala Trading Company has been successfully signed",
+    "filterAll": "All",
+    "filterBookings": "Bookings",
+    "filterContracts": "Contracts",
+    "filterPayments": "Payments",
+    "filterUnread": "Unread",
+    "newBookingRequest": "New Booking Request",
+    "noNotifications": "No notifications",
+    "payment": "Payment",
+    "paymentReceived": "Payment Received",
+    "paymentReceivedDetailsBank": "A payment of 180,000 SAR has been received from Al-Asala Trading Company via bank transfer",
+    "paymentReceivedDetailsMada": "A payment of 95,000 SAR has been received from The Luxury Flower Shop via Mada",
+    "system": "System",
+    "systemUpdate": "System Update",
+    "systemUpdateDetails": "The investor portal has been updated with new features: ROI calculator and advanced analytics",
+    "title": "Notifications"
+  },
+  "predefinedQuestions": {
+    "bestOpportunity": "What is the best investment opportunity available now?",
+    "diversificationStrategy": "Suggest a portfolio diversification strategy",
+    "improvePortfolio": "How can I improve my portfolio performance?",
+    "potentialRisks": "What are the potential risks in my investments?"
+  },
+  "roiCalculator": {
+    "currency": "SAR",
+    "inputs": "Inputs",
+    "investmentAmount": "Investment Amount",
+    "netProfit": "Net Profit",
+    "numberOfUnits": "Number of Units",
+    "occupancyRate": "Occupancy Rate",
+    "operatingCosts": "Operating Costs",
+    "pageDescription": "Calculate the expected return on your investment in exhibitions",
+    "pageTitle": "ROI Calculator",
+    "paybackPeriod": "Payback Period",
+    "profitMargin": "Profit Margin",
+    "results": "Results",
+    "returnOnInvestment": "Return (ROI)",
+    "roiCalculatorAlt": "ROI Calculator",
+    "roiIndicator": "ROI Indicator",
+    "totalRevenue": "Total Revenue",
+    "unit": "Unit",
+    "unitPrice": "Unit Price"
+  }
+}

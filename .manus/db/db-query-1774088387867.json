@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE `hubspot_sync_log` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`entityType` varchar(50) NOT NULL,\n\t`entityId` int NOT NULL,\n\t`hubspotObjectType` varchar(50) NOT NULL,\n\t`hubspotObjectId` varchar(100),\n\t`action` varchar(20) NOT NULL,\n\t`status` enum('success','failed','pending') NOT NULL DEFAULT 'pending',\n\t`errorMessage` text,\n\t`syncedAt` timestamp NOT NULL DEFAULT (now()),\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\tCONSTRAINT `hubspot_sync_log_id` PRIMARY KEY(`id`)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway04.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 4Z3pAY1NzprVWrk.root --database AHhCmE6wXFRhBEyZUA9P6D --execute CREATE TABLE `hubspot_sync_log` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`entityType` varchar(50) NOT NULL,\n\t`entityId` int NOT NULL,\n\t`hubspotObjectType` varchar(50) NOT NULL,\n\t`hubspotObjectId` varchar(100),\n\t`action` varchar(20) NOT NULL,\n\t`status` enum('success','failed','pending') NOT NULL DEFAULT 'pending',\n\t`errorMessage` text,\n\t`syncedAt` timestamp NOT NULL DEFAULT (now()),\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\tCONSTRAINT `hubspot_sync_log_id` PRIMARY KEY(`id`)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1716
+}
