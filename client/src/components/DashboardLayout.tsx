@@ -160,11 +160,12 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
 
       {/* ═══════════ SIDEBAR — Always Dark ═══════════ */}
       <aside
-        className={`fixed lg:sticky top-0 right-0 h-screen z-50 transition-all duration-300 flex flex-col ${
+        className={`fixed lg:relative top-0 right-0 h-screen z-50 transition-all duration-300 flex flex-col shrink-0 ${
           mobileOpen ? 'translate-x-0' : 'translate-x-full lg:translate-x-0'
         }`}
         style={{
           width: collapsed ? '72px' : '260px',
+          minWidth: collapsed ? '72px' : '260px',
           background: 'var(--sidebar)',
           borderLeft: '1px solid var(--sidebar-border)',
         }}
