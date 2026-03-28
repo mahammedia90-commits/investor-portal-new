@@ -1,7 +1,8 @@
-import { COOKIE_NAME } from "@shared/const";
+import { COOKIE_NAME, ONE_YEAR_MS } from "@shared/const";
 import { getSessionCookieOptions } from "./_core/cookies";
 import { systemRouter } from "./_core/systemRouter";
 import { publicProcedure, protectedProcedure, router } from "./_core/trpc";
+import { sdk } from "./_core/sdk";
 import { z } from "zod";
 import * as db from "./db";
 import * as hubspot from "./lib/hubspot";
@@ -230,7 +231,7 @@ export const appRouter = router({
         'general_investment',
       ]),
       region: z.string().optional(),
-    })).mutation(async ({ input }) => {
+    })).mutation(async ({ input, ctx }) => {
       const lead = await db.createInvestorLead(input);
 
       // Auto-sync to HubSpot CRM
@@ -259,15 +260,45 @@ export const appRouter = router({
         }
       }
 
+      // Create/find user in users table and set session cookie
+      const openId = `investor_${input.phone}`;
+      await db.upsertUser({
+        openId,
+        name: input.fullName,
+        loginMethod: "otp",
+        lastSignedIn: new Date(),
+        role: "investor",
+        phone: input.phone,
+      });
+      const token = await sdk.createSessionToken(openId, { name: input.fullName });
+      const cookieOptions = getSessionCookieOptions(ctx.req);
+      ctx.res.cookie(COOKIE_NAME, token, { ...cookieOptions, maxAge: ONE_YEAR_MS });
+
       return { success: true, lead };
     }),
 
     // Login existing investor (update last login)
     login: publicProcedure.input(z.object({
       phone: z.string().min(9).max(15),
-    })).mutation(async ({ input }) => {
+    })).mutation(async ({ input, ctx }) => {
       await db.updateInvestorLeadLogin(input.phone);
       const lead = await db.getInvestorLeadByPhone(input.phone);
+
+      // Set session cookie
+      const openId = `investor_${input.phone}`;
+      const userName = lead?.fullName || input.phone;
+      await db.upsertUser({
+        openId,
+        name: userName,
+        loginMethod: "otp",
+        lastSignedIn: new Date(),
+        role: "investor",
+        phone: input.phone,
+      });
+      const token = await sdk.createSessionToken(openId, { name: userName });
+      const cookieOptions = getSessionCookieOptions(ctx.req);
+      ctx.res.cookie(COOKIE_NAME, token, { ...cookieOptions, maxAge: ONE_YEAR_MS });
+
       return { success: true, lead };
     }),
   }),
